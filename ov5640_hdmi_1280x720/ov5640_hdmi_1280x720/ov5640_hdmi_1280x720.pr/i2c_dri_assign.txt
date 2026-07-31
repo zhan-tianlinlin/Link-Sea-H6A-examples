@@ -1,0 +1,4 @@
+sda,sda_dir,sda_out
+sda_in,sda
+clk_divide,CLK_FREQ,I2C_FREQ
+id_addr,i2c_id_addr,!rst_n,~dri_clk,!rst_n,!rst_n

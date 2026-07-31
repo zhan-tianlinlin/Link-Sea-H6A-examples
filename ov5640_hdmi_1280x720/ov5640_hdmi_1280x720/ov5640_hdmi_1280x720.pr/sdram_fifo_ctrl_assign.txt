@@ -1,0 +1,4 @@
+write_done_flag,wr_ack_r2,~wr_ack_r1
+read_done_flag,rd_ack_r2,~rd_ack_r1
+wr_load_flag,~wr_load_r2,wr_load_r1
+rd_load_flag,~rd_load_r2,rd_load_r1,!rst_n,!rst_n,!rst_n,!rst_n,!rst_n,!rst_n,~rw_bank_flag,!rst_n,!rst_n

@@ -1,0 +1,2 @@
+,sdram_cmd_r
+sys_addr,sdram_rd_wr,sys_rdaddr,sys_wraddr,!rst_n

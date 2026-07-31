@@ -1,0 +1,4 @@
+video_hs,cnt_h,H_SYNC
+video_vs,cnt_v,V_SYNC
+video_de,cnt_h,H_START,H_BACK,cnt_h,H_END,cnt_v,V_START,V_BACK,cnt_v,V_END
+video_rgb,video_de,pixel_data,!sys_rst_n,!sys_rst_n,!sys_rst_n

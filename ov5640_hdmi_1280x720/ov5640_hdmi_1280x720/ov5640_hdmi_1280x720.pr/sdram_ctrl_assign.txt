@@ -1,0 +1,5 @@
+done_200us,cnt_200us,CNT_200US
+sdram_init_done,init_state
+sdram_ref_ack,work_state
+sdram_wr_ack,work_state,~sdram_rd_wr,work_state,work_state,cnt_clk,sdram_wr_burst
+sdram_rd_ack,work_state,cnt_clk,cnt_clk,sdram_rd_burst,!rst_n,!rst_n,!rst_n,!rst_n,!cnt_rst_n,!rst_n,!rst_n,!rst_n,&sdram_ref_req,&sdram_wr_req
