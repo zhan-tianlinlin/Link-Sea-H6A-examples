@@ -1,0 +1,42 @@
+# Quartus/Vivado 编译数据库与增量编译文件
+**/db/
+**/incremental_db/
+**/*.runs/
+**/output_files/
+**/.Xil/
+**/.cache/
+**/.gen/
+
+# 综合、布局布线和仿真生成文件
+**/*.rpt
+**/*.log
+**/*.smsg
+**/*.qmsg
+**/*.summary
+**/*.cdb
+**/*.hdb
+**/*.rdb
+**/*.pb
+**/*.vqm
+**/*.dcp
+**/*.fst
+**/*.jpsk
+**/*.psk
+**/*.min
+**/*.place
+**/*.route
+**/*.map
+**/*.dly.pb
+
+# 可由工程重新生成的下载文件
+**/*.sof
+**/*.pof
+**/*.jic
+**/*.rbf
+
+# 临时文件和编辑器文件
+**/*.bak
+**/*.tmp
+**/*~
+*.swp
+.DS_Store
