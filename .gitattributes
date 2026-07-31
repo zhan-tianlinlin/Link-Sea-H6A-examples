@@ -1,0 +1,9 @@
+# GitHub Linguist: identify Verilog source files correctly.
+*.v linguist-language=Verilog
+
+# Exclude FPGA tool-generated output from language statistics.
+**/db/** linguist-generated=true
+**/incremental_db/** linguist-generated=true
+**/*.runs/** linguist-generated=true
+**/output_files/** linguist-generated=true
+**/.Xil/** linguist-generated=true
