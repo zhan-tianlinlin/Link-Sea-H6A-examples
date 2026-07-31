@@ -1,0 +1,65 @@
+2026-07-31 10:47:26,906 [INFO] Copyright (C) 2017-2024 eHiWAY Corporation
+2026-07-31 10:47:26,906 [INFO] Your use of eHiWAY Corporation's design tools, logic functions 
+2026-07-31 10:47:26,906 [INFO] and other software and tools, and its EMPP partner logic 
+2026-07-31 10:47:26,906 [INFO] functions, and any output files from any of the foregoing 
+2026-07-31 10:47:26,906 [INFO] (including device programming or simulation files), and any 
+2026-07-31 10:47:26,906 [INFO] associated documentation or information are expressly subject 
+2026-07-31 10:47:26,906 [INFO] to the terms and conditions of the eHiWAY Program License 
+2026-07-31 10:47:26,908 [INFO] Subscription Agreement, or other applicable license agreement, including, 
+2026-07-31 10:47:26,908 [INFO] without limitation, that your use is for the sole purpose of 
+2026-07-31 10:47:26,908 [INFO] programming logic devices manufactured by eHiWAY and sold by 
+2026-07-31 10:47:26,908 [INFO] eHiWAY or its authorized distributors.  Please refer to the 
+2026-07-31 10:47:26,908 [INFO] applicable agreement for further details.
+2026-07-31 10:47:26,908 [INFO] VENDOR "eHiWAY"
+
+2026-07-31 10:47:26,908 [INFO] PROGRAM "eLinx 64-Bit"
+2026-07-31 10:47:26,908 [INFO] VERSION "Version 3.0.7 Build 1/22/2025 Full Version"
+2026-07-31 10:47:27,238 [INFO] [ARC_Proc_5]:Deserialize device ends.
+2026-07-31 10:47:27,311 [INFO] [ARC_Proc_1]:Deserialize tiles ends.
+2026-07-31 10:47:27,360 [INFO] [UDM_Nlist_1]:Lauched netlist parser: Checking lpm/series_status_list/psf info...
+2026-07-31 10:47:27,360 [INFO] [UDM_Nlist_1]:Current top_level_entity name is ov5640_hdmi_top.
+2026-07-31 10:47:27,360 [INFO] [UDM_Nlist_1]:Current series name is eHiChip6.
+2026-07-31 10:47:27,360 [INFO] [UDM_Nlist_1]:Current device name is EQ6HL130.
+2026-07-31 10:47:27,361 [INFO] [UDM_Nlist_15]:Begin parsing netlist...
+2026-07-31 10:47:27,918 [INFO] [UDM_udm_parser_1]:ValidWire set have NOT signal \gnd , so port 2684 link gnd signal!
+2026-07-31 10:47:27,932 [INFO] [UDM_Nlist_19]:Check netlist file is normal after Parse netlist file .
+2026-07-31 10:47:27,933 [INFO] [UDM_Nlist_20]:Parse netlist file success.
+2026-07-31 10:47:27,933 [INFO] [UDM_Nlist_21]:Netlist parser time consumed 0.562 second(s).
+2026-07-31 10:47:27,936 [INFO] [UDM_IP_1]:Begin parsing IP file(s)...
+2026-07-31 10:47:27,940 [INFO] [UDM_IP_1]:Parse IP file success.
+2026-07-31 10:47:27,940 [INFO] [UDM_IP_1]:parse_ip_specific complete.
+2026-07-31 10:47:27,941 [INFO] [UDM_Mem_1]:VQM have NOT memory 
+2026-07-31 10:47:27,941 [INFO] [UDM_Mem_1]:parse_mem_initial complete.
+2026-07-31 10:47:27,943 [INFO] udm drc.....
+
+2026-07-31 10:47:27,969 [CRIT] [UCM_M_1]:ov5640_pclk Unconstrained
+
+2026-07-31 10:47:27,969 [CRIT] [UCM_M_1]:\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk Unconstrained
+
+2026-07-31 10:47:27,969 [CRIT] [UCM_M_1]:\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|dri_clk Unconstrained
+
+2026-07-31 10:47:27,982 [CRIT] [Timer_M_1]:set_max_delay: No valid object(s) found for -from get_pins: \sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q
+
+2026-07-31 10:47:27,982 [CRIT] [Timer_M_1]:set_false_path: No valid object(s) found for -from get_pins: \sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q
+
+2026-07-31 10:47:27,982 [CRIT] [Timer_M_1]:set_false_path: No valid object(s) found for -from get_pins: \sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q
+
+2026-07-31 10:47:27,989 [INFO] [Packer_Proc_1]:Launched Packer...
+2026-07-31 10:47:32,126 [INFO] [Packer]:Pre-processing run-time is 0.001 seconds.
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: ov5640_pclk
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk0
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk2
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk3
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \clk_pll_2:clk_gen_inst2|altpll:altpll_component|_clk0
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \ov5640_top:ov5640_top_inst|comb~0
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \rst_n~0
+2026-07-31 10:47:32,150 [INFO] CanGlobal_Signal: \sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|dri_clk
+2026-07-31 10:47:32,178 [INFO] [Packer_Proc_0]:DoPacking, Pack with module. 
+2026-07-31 10:47:32,182 [INFO] [Packer_Proc_0]:PARALLEL PACK begin. 
+2026-07-31 10:47:32,280 [INFO] [Packer_Proc_2]:Packer process is complete.
+2026-07-31 10:47:32,370 [INFO] [UDM_ICAP_1]:Parse Icap file success.
+2026-07-31 10:47:32,370 [INFO] [UDM_ICAP_1]:parse_icap_specific complete.
+2026-07-31 10:47:32,371 [INFO] Writing statistical info to file is completed
+2026-07-31 10:47:32,420 [INFO] [UDM_Save_0]:Save eLinx design check point(.ecp) complete.
+2026-07-31 10:47:32,836 [INFO] [UDM_Write_10]:Write cluster XML file complete.

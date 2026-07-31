@@ -1,0 +1,262 @@
+--dcfifo_mixed_widths ADD_RAM_OUTPUT_REGISTER="ON" CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=70 CLOCKS_ARE_SYNCHRONIZED="FALSE" DEVICE_FAMILY="Stratix" IGNORE_CARRY_BUFFERS="OFF" LPM_NUMWORDS=2048 LPM_SHOWAHEAD="OFF" LPM_WIDTH=16 LPM_WIDTH_R=16 LPM_WIDTHU=11 LPM_WIDTHU_R=11 OVERFLOW_CHECKING="ON" RAM_BLOCK_TYPE="M4K" UNDERFLOW_CHECKING="ON" USE_EAB="ON" aclr data q rdclk rdreq rdusedw wrclk wrreq CYCLONEII_M4K_COMPATIBILITY="ON" INTENDED_DEVICE_FAMILY="Stratix" LOW_POWER_MODE="AUTO" lpm_hint="RAM_BLOCK_TYPE=M4K" ALTERA_INTERNAL_OPTIONS=AUTO_SHIFT_REGISTER_RECOGNITION=OFF
+--VERSION_BEGIN 13.0 cbx_a_gray2bin 2013:06:12:18:03:43:SJ cbx_a_graycounter 2013:06:12:18:03:43:SJ cbx_altdpram 2013:06:12:18:03:43:SJ cbx_altsyncram 2013:06:12:18:03:43:SJ cbx_cycloneii 2013:06:12:18:03:43:SJ cbx_dcfifo 2013:06:12:18:03:43:SJ cbx_fifo_common 2013:06:12:18:03:43:SJ cbx_lpm_add_sub 2013:06:12:18:03:43:SJ cbx_lpm_compare 2013:06:12:18:03:43:SJ cbx_lpm_counter 2013:06:12:18:03:43:SJ cbx_lpm_decode 2013:06:12:18:03:43:SJ cbx_lpm_mux 2013:06:12:18:03:43:SJ cbx_mgl 2013:06:12:18:05:10:SJ cbx_scfifo 2013:06:12:18:03:43:SJ cbx_stratix 2013:06:12:18:03:43:SJ cbx_stratixii 2013:06:12:18:03:43:SJ cbx_stratixiii 2013:06:12:18:03:43:SJ cbx_stratixv 2013:06:12:18:03:43:SJ cbx_util_mgl 2013:06:12:18:03:43:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2013 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+FUNCTION a_gray2bin_07b (gray[10..0])
+RETURNS ( bin[10..0]);
+FUNCTION a_graycounter_u26 (aclr, clk_en, clock)
+RETURNS ( q[10..0]);
+FUNCTION a_graycounter_v26 (aclr, clk_en, clock)
+RETURNS ( q[10..0]);
+FUNCTION altsyncram_u861 (address_a[10..0], address_b[10..0], clock0, clock1, clocken1, data_a[15..0], wren_a)
+RETURNS ( q_b[15..0]);
+FUNCTION alt_synch_pipe_1e8 (clock, clrn, d[10..0])
+RETURNS ( q[10..0]);
+FUNCTION alt_synch_pipe_2e8 (clock, clrn, d[10..0])
+RETURNS ( q[10..0]);
+FUNCTION add_sub_m0c (dataa[10..0], datab[10..0])
+RETURNS ( result[10..0]);
+FUNCTION cmpr_ms5 (dataa[10..0], datab[10..0])
+RETURNS ( aeb);
+FUNCTION cmpr_ti8 (dataa[10..0], datab[10..0])
+RETURNS ( aeb);
+FUNCTION cntr_cva (aclr, clk_en, clock)
+RETURNS ( q[10..0]);
+FUNCTION scfifo (aclr, clock, data[LPM_WIDTH-1..0], rdreq, sclr, wrreq)
+WITH ( ADD_RAM_OUTPUT_REGISTER, ALLOW_RWCYCLE_WHEN_FULL, ALMOST_EMPTY_VALUE, ALMOST_FULL_VALUE, LPM_NUMWORDS, LPM_SHOWAHEAD, LPM_WIDTH, LPM_WIDTHU = 1, OVERFLOW_CHECKING, UNDERFLOW_CHECKING, USE_EAB)
+RETURNS ( almost_empty, almost_full, empty, full, q[LPM_WIDTH-1..0], usedw[LPM_WIDTHU-1..0]);
+
+--synthesis_resources = lut 274 M4K 8 scfifo 1 
+OPTIONS ALTERA_INTERNAL_OPTION = "AUTO_SHIFT_REGISTER_RECOGNITION=OFF;suppress_da_rule_internal=d102;suppress_da_rule_internal=d101;-name CUT ON -from read_counter_for_write -to write_sync_registers|dffpipe_se9:dffpipe22|dffe23a;-name SDC_STATEMENT ""set_false_path -from *read_counter_for_write* -to *write_sync_registers|dffpipe_se9:dffpipe22|dffe23a* "";-name CUT ON -from delayed_wrptr_g -to read_sync_registers|dffpipe_re9:dffpipe18|dffe19a;-name SDC_STATEMENT ""set_false_path -from *delayed_wrptr_g* -to *read_sync_registers|dffpipe_re9:dffpipe18|dffe19a* """;
+
+SUBDESIGN dcfifo_rll1
+( 
+	aclr	:	input;
+	data[15..0]	:	input;
+	q[15..0]	:	output;
+	rdclk	:	input;
+	rdempty	:	output;
+	rdfull	:	output;
+	rdreq	:	input;
+	rdusedw[10..0]	:	output;
+	wrclk	:	input;
+	wrempty	:	output;
+	wrfull	:	output;
+	wrreq	:	input;
+	wrusedw[10..0]	:	output;
+) 
+VARIABLE 
+	read_side_gray_converter : a_gray2bin_07b;
+	write_side_gray_converter : a_gray2bin_07b;
+	rdptr_g : a_graycounter_u26;
+	read_counter_for_write : a_graycounter_v26;
+	wrptr_g : a_graycounter_u26;
+	fifo_ram : altsyncram_u861;
+	delayed_wrptr_g[10..0] : dffe;
+	dffe10a[10..0] : dffe;
+	dffe3a[10..0] : dffe;
+	dffe4a[10..0] : dffe;
+	dffe5a[10..0] : dffe;
+	dffe8a[10..0] : dffe;
+	dffe9a[10..0] : dffe;
+	fifo_wreq_pipe[1..0] : dffe;
+	lwrreq : dffe;
+	rdfull_delay : dffe;
+	wrempty_delay : dffe;
+	wrfull_delay : dffe;
+	read_sync_registers : alt_synch_pipe_1e8;
+	write_sync_registers : alt_synch_pipe_2e8;
+	rdusedw_subtractor : add_sub_m0c;
+	wrusedw_subtractor : add_sub_m0c;
+	address_comparer : cmpr_ms5;
+	rdfull_compare_aeb_int	:	WIRE;
+	rdfull_compare_agb_int	:	WIRE;
+	rdfull_compare_ageb	:	WIRE;
+	rdfull_compare_dataa[10..0]	:	WIRE;
+	rdfull_compare_datab[10..0]	:	WIRE;
+	wrempty_comparison : cmpr_ti8;
+	wrfull_comparison_aeb_int	:	WIRE;
+	wrfull_comparison_agb_int	:	WIRE;
+	wrfull_comparison_ageb	:	WIRE;
+	wrfull_comparison_dataa[10..0]	:	WIRE;
+	wrfull_comparison_datab[10..0]	:	WIRE;
+	rdptr_b : cntr_cva;
+	wrptr_b : cntr_cva;
+	output_channel : scfifo
+		WITH (
+			ADD_RAM_OUTPUT_REGISTER = "ON",
+			LPM_NUMWORDS = 3,
+			LPM_SHOWAHEAD = "OFF",
+			LPM_WIDTH = 16,
+			LPM_WIDTHU = 2,
+			OVERFLOW_CHECKING = "ON",
+			UNDERFLOW_CHECKING = "ON",
+			USE_EAB = "OFF"
+		);
+	delayed_read_counter_after_gray_conversion[10..0]	: WIRE;
+	delayed_write_counter_after_gray_conversion[10..0]	: WIRE;
+	dup_valid_wrreq	: WIRE;
+	fifo_wreq_out	: WIRE;
+	pre_rdempty	: WIRE;
+	pre_wrfull	: WIRE;
+	ramread_address[10..0]	: WIRE;
+	rdusedw_delaypipe_out[10..0]	: WIRE;
+	read_count_after_gray_conversion[10..0]	: WIRE;
+	read_count_for_write_side[10..0]	: WIRE;
+	read_count_to_write_side[10..0]	: WIRE;
+	stall_pipeline	: WIRE;
+	valid_rreq	: WIRE;
+	valid_wrreq	: WIRE;
+	write_count_after_gray_conversion[10..0]	: WIRE;
+	write_count_for_read_side[10..0]	: WIRE;
+	write_count_to_read_side[10..0]	: WIRE;
+	wrusedw_delaypipe_out[10..0]	: WIRE;
+
+BEGIN 
+	read_side_gray_converter.gray[] = write_count_for_read_side[];
+	write_side_gray_converter.gray[] = read_count_for_write_side[];
+	rdptr_g.aclr = aclr;
+	rdptr_g.clk_en = ((! stall_pipeline) & (! address_comparer.aeb));
+	rdptr_g.clock = rdclk;
+	read_counter_for_write.aclr = aclr;
+	read_counter_for_write.clk_en = valid_rreq;
+	read_counter_for_write.clock = rdclk;
+	wrptr_g.aclr = aclr;
+	wrptr_g.clk_en = dup_valid_wrreq;
+	wrptr_g.clock = wrclk;
+	fifo_ram.address_a[] = wrptr_g.q[];
+	fifo_ram.address_b[] = ramread_address[];
+	fifo_ram.clock0 = wrclk;
+	fifo_ram.clock1 = rdclk;
+	fifo_ram.clocken1 = (! stall_pipeline);
+	fifo_ram.data_a[] = data[];
+	fifo_ram.wren_a = valid_wrreq;
+	delayed_wrptr_g[].clk = wrclk;
+	delayed_wrptr_g[].clrn = (! aclr);
+	delayed_wrptr_g[].d = wrptr_g.q[];
+	dffe10a[].clk = rdclk;
+	dffe10a[].clrn = (! aclr);
+	dffe10a[].d = rdusedw_subtractor.result[];
+	dffe3a[].clk = wrclk;
+	dffe3a[].clrn = (! aclr);
+	dffe3a[].d = read_count_after_gray_conversion[];
+	dffe4a[].clk = wrclk;
+	dffe4a[].clrn = (! aclr);
+	dffe4a[].d = wrusedw_subtractor.result[];
+	dffe5a[].clk = wrclk;
+	dffe5a[].clrn = (! aclr);
+	dffe5a[].d = wrusedw_subtractor.result[];
+	dffe8a[].clk = rdclk;
+	dffe8a[].clrn = (! aclr);
+	dffe8a[].d = write_count_after_gray_conversion[];
+	dffe9a[].clk = rdclk;
+	dffe9a[].clrn = (! aclr);
+	dffe9a[].d = rdusedw_subtractor.result[];
+	fifo_wreq_pipe[].clk = rdclk;
+	fifo_wreq_pipe[].clrn = (! aclr);
+	fifo_wreq_pipe[].d = ( ((fifo_wreq_pipe[0].q & (! stall_pipeline)) # (fifo_wreq_pipe[1].q & stall_pipeline)), ((stall_pipeline & fifo_wreq_pipe[0].q) # ((! stall_pipeline) & (! address_comparer.aeb))));
+	lwrreq.clk = wrclk;
+	lwrreq.clrn = (! aclr);
+	lwrreq.d = wrreq;
+	rdfull_delay.clk = rdclk;
+	rdfull_delay.clrn = (! aclr);
+	rdfull_delay.d = rdfull_compare_ageb;
+	wrempty_delay.clk = wrclk;
+	wrempty_delay.clrn = (! aclr);
+	wrempty_delay.d = (! (((! wrreq) & (! lwrreq.q)) & wrempty_comparison.aeb));
+	wrfull_delay.clk = wrclk;
+	wrfull_delay.clrn = (! aclr);
+	wrfull_delay.d = wrfull_comparison_ageb;
+	read_sync_registers.clock = rdclk;
+	read_sync_registers.clrn = (! aclr);
+	read_sync_registers.d[] = write_count_to_read_side[];
+	write_sync_registers.clock = wrclk;
+	write_sync_registers.clrn = (! aclr);
+	write_sync_registers.d[] = read_count_to_write_side[];
+	rdusedw_subtractor.dataa[] = delayed_write_counter_after_gray_conversion[];
+	rdusedw_subtractor.datab[] = rdptr_b.q[];
+	wrusedw_subtractor.dataa[] = wrptr_b.q[];
+	wrusedw_subtractor.datab[] = delayed_read_counter_after_gray_conversion[];
+	address_comparer.dataa[] = rdptr_g.q[];
+	address_comparer.datab[] = write_count_for_read_side[];
+	IF (rdfull_compare_dataa[] == rdfull_compare_datab[]) THEN
+		rdfull_compare_aeb_int = VCC;
+	ELSE
+		rdfull_compare_aeb_int = GND;
+	END IF;
+	IF (rdfull_compare_dataa[] > rdfull_compare_datab[]) THEN
+		rdfull_compare_agb_int = VCC;
+	ELSE
+		rdfull_compare_agb_int = GND;
+	END IF;
+	rdfull_compare_ageb = rdfull_compare_agb_int # rdfull_compare_aeb_int;
+	rdfull_compare_dataa[] = rdusedw_delaypipe_out[];
+	rdfull_compare_datab[] = B"11111111101";
+	wrempty_comparison.dataa[] = wrusedw_delaypipe_out[];
+	wrempty_comparison.datab[] = B"00000000000";
+	IF (wrfull_comparison_dataa[] == wrfull_comparison_datab[]) THEN
+		wrfull_comparison_aeb_int = VCC;
+	ELSE
+		wrfull_comparison_aeb_int = GND;
+	END IF;
+	IF (wrfull_comparison_dataa[] > wrfull_comparison_datab[]) THEN
+		wrfull_comparison_agb_int = VCC;
+	ELSE
+		wrfull_comparison_agb_int = GND;
+	END IF;
+	wrfull_comparison_ageb = wrfull_comparison_agb_int # wrfull_comparison_aeb_int;
+	wrfull_comparison_dataa[] = wrusedw_delaypipe_out[];
+	wrfull_comparison_datab[] = B"11111111101";
+	rdptr_b.aclr = aclr;
+	rdptr_b.clk_en = valid_rreq;
+	rdptr_b.clock = rdclk;
+	wrptr_b.aclr = aclr;
+	wrptr_b.clk_en = valid_wrreq;
+	wrptr_b.clock = wrclk;
+	output_channel.aclr = aclr;
+	output_channel.clock = rdclk;
+	output_channel.data[] = fifo_ram.q_b[];
+	output_channel.rdreq = rdreq;
+	output_channel.wrreq = fifo_wreq_out;
+	delayed_read_counter_after_gray_conversion[] = dffe3a[].q;
+	delayed_write_counter_after_gray_conversion[] = dffe8a[].q;
+	dup_valid_wrreq = ((! pre_wrfull) & wrreq);
+	fifo_wreq_out = fifo_wreq_pipe[1].q;
+	pre_rdempty = output_channel.empty;
+	pre_wrfull = wrfull_delay.q;
+	q[] = output_channel.q[];
+	ramread_address[] = rdptr_g.q[];
+	rdempty = pre_rdempty;
+	rdfull = rdfull_delay.q;
+	rdusedw[] = dffe10a[].q;
+	rdusedw_delaypipe_out[] = dffe9a[].q;
+	read_count_after_gray_conversion[] = write_side_gray_converter.bin[];
+	read_count_for_write_side[] = write_sync_registers.q[];
+	read_count_to_write_side[] = read_counter_for_write.q[];
+	stall_pipeline = (output_channel.full & fifo_wreq_pipe[1].q);
+	valid_rreq = (rdreq & (! pre_rdempty));
+	valid_wrreq = ((! pre_wrfull) & wrreq);
+	wrempty = (! wrempty_delay.q);
+	wrfull = pre_wrfull;
+	write_count_after_gray_conversion[] = read_side_gray_converter.bin[];
+	write_count_for_read_side[] = read_sync_registers.q[];
+	write_count_to_read_side[] = delayed_wrptr_g[].q;
+	wrusedw[] = dffe5a[].q;
+	wrusedw_delaypipe_out[] = dffe4a[].q;
+END;
+--VALID FILE

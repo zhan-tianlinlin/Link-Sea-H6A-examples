@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at ov5640_cfg.v(18): object "REG_NUM" differs only in case from object "reg_num" in the same scope
+Info (10281): Verilog HDL Declaration information at i2c_ctrl.v(15): object "wr_data" differs only in case from object "WR_DATA" in the same scope
+Info (10281): Verilog HDL Declaration information at i2c_ctrl.v(19): object "rd_data" differs only in case from object "RD_DATA" in the same scope
+Info (10281): Verilog HDL Declaration information at sdram_ctrl.v(34): object "CNT_200US" differs only in case from object "cnt_200us" in the same scope
+Info (10281): Verilog HDL Declaration information at sdram_ctrl.v(35): object "CNT_REFRESH" differs only in case from object "cnt_refresh" in the same scope

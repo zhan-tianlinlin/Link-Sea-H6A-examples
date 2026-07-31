@@ -1,0 +1,7 @@
+rd_start_en,sdram2_init_done,sd_init_done
+locked,pll1_locked,pll2_locked
+rst_n,sys_rst_n,locked
+sys_init_done,sdram1_init_done,cfg_done
+roate_wr_en,ov5640_wr_en,x_addr,y_addr
+wr_en,ov5640_wr_en
+wr_data,ov5640_data_out

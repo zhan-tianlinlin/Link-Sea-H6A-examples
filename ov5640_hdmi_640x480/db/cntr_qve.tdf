@@ -1,0 +1,81 @@
+--lpm_counter CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Stratix" lpm_width=2 aclr clock cnt_en q sclr updown CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=70
+--VERSION_BEGIN 13.0 cbx_cycloneii 2013:06:12:18:03:43:SJ cbx_lpm_add_sub 2013:06:12:18:03:43:SJ cbx_lpm_compare 2013:06:12:18:03:43:SJ cbx_lpm_counter 2013:06:12:18:03:43:SJ cbx_lpm_decode 2013:06:12:18:03:43:SJ cbx_mgl 2013:06:12:18:05:10:SJ cbx_stratix 2013:06:12:18:03:43:SJ cbx_stratixii 2013:06:12:18:03:43:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2013 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+FUNCTION stratix_lcell (aclr, aload, cin, clk, dataa, datab, datac, datad, ena, inverta, regcascin, sclr, sload)
+WITH ( cin0_used, cin1_used, cin_used, lut_mask, operation_mode, output_mode, power_up, register_cascade_mode, sum_lutc_input, synch_mode, x_on_violation)
+RETURNS ( combout, cout, regout);
+
+--synthesis_resources = lut 2 
+SUBDESIGN cntr_qve
+( 
+	aclr	:	input;
+	clock	:	input;
+	cnt_en	:	input;
+	q[1..0]	:	output;
+	sclr	:	input;
+	updown	:	input;
+) 
+VARIABLE 
+	counter_cella0 : stratix_lcell
+		WITH (
+			cin_used = "false",
+			lut_mask = "5599",
+			operation_mode = "arithmetic",
+			synch_mode = "on"
+		);
+	counter_cella1 : stratix_lcell
+		WITH (
+			cin_used = "true",
+			lut_mask = "5A90",
+			operation_mode = "normal",
+			sum_lutc_input = "cin",
+			synch_mode = "on"
+		);
+	aclr_actual	: WIRE;
+	clk_en	: NODE;
+	data[1..0]	: NODE;
+	s_val[1..0]	: WIRE;
+	safe_q[1..0]	: WIRE;
+	sload	: NODE;
+	sset	: NODE;
+	updownDir	: WIRE;
+
+BEGIN 
+	counter_cella[1..0].aclr = aclr_actual;
+	counter_cella[1..0].aload = B"00";
+	counter_cella[1].cin = counter_cella[0].cout;
+	counter_cella[1..0].clk = clock;
+	counter_cella[1..0].dataa = safe_q[];
+	counter_cella[1..0].datab = updownDir;
+	counter_cella[1..0].datac = ((sset & s_val[]) # ((! sset) & data[]));
+	counter_cella[1].datad = B"1";
+	counter_cella[1..0].ena = (clk_en & (((cnt_en # sclr) # sset) # sload));
+	counter_cella[1..0].sclr = sclr;
+	counter_cella[1..0].sload = (sset # sload);
+	aclr_actual = aclr;
+	clk_en = VCC;
+	data[] = GND;
+	q[] = safe_q[];
+	s_val[] = B"11";
+	safe_q[] = counter_cella[1..0].regout;
+	sload = GND;
+	sset = GND;
+	updownDir = updown;
+END;
+--VALID FILE

@@ -1,0 +1,1 @@
+sdram_clk,out_clk

@@ -1,0 +1,111 @@
+Flow report for ov5640_hdmi_640x480
+Fri Jul 31 10:47:25 2026
+eLinx 64-Bit Version 3.0 
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2006-2024 eHiWay Corporation
+Your use of eHiWay Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the eHiWay Program License 
+Subscription Agreement, eHiWay MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by eHiWay and sold by 
+eHiWay or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++---------------------------+--------------------------------------------------+
+; Flow Status               ; Successful - Fri Jul 31 10:47:25 2026            ;
+; eLinx 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name             ; ov5640_hdmi_640x480                              ;
+; Top-level Entity Name     ; ov5640_hdmi_top                                  ;
+; Family                    ; eHiChip6                                          ;
+; Device                    ; EQ6HL130                                    ;
+; Timing Models             ; Final                                            ;
+; Total logic elements      ; 1,567                                            ;
+; Total pins                ; 85                                               ;
+; Total virtual pins        ; 0                                                ;
+; Total memory bits         ; 65,536                                           ;
+; DSP block 9-bit elements  ; 0                                                ;
+; Total PLLs                ; 2                                                ;
+; Total DLLs                ; 0                                                ;
++---------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/31/2026 10:47:19 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ov5640_hdmi_640x480 ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                   ;
++--------------------------+------------------------------------------------------------------------+---------------------+-------------+------------+
+; Assignment Name          ; Value                                                                  ; Default Value       ; Entity Name ; Section Id ;
++--------------------------+------------------------------------------------------------------------+---------------------+-------------+------------+
+; AUTO_MERGE_PLLS          ; Off                                                                    ; On                  ; --          ; --         ;
+; COMPILER_SIGNATURE_ID    ; 110266799317682.178546603910468                                        ; --                  ; --          ; --         ;
+; INI_VARS                 ; qatm_force_vqm=on;vqmo_gen_svgx_vqm=on                                 ; --                  ; --          ; --         ;
+; MAX_RAM_BLOCKS_M512      ; 0                                                                      ; -1 (Unlimited)      ; --          ; --         ;
+; MAX_RAM_BLOCKS_MRAM      ; 0                                                                      ; -1 (Unlimited)      ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY ; D:/github_example/ov5640_hdmi_640x480/ov5640_hdmi_640x480.runs/synth_1 ; --                  ; --          ; --         ;
+; TOP_LEVEL_ENTITY         ; ov5640_hdmi_top                                                        ; ov5640_hdmi_640x480 ; --          ; --         ;
++--------------------------+------------------------------------------------------------------------+---------------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:05     ; 1.0                     ; 4618 MB             ; 00:00:06                           ;
+; Total                ; 00:00:05     ; --                      ; --                  ; 00:00:06                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; zhanweijie_good  ; Windows 7 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+ehiway_map --read_settings_files=on --write_settings_files=off ov5640_hdmi_640x480
+
+
+

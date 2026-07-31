@@ -1,0 +1,12 @@
+Implementation Status : Successful
+eLinx Version : 3.0 
+Top-level Entity Name : ov5640_hdmi_top
+Total LUTs : 1569 / 136160 (1%)
+Total FFs : 779 / 136160 (1%)
+Total Memorys : 16 / 1200 (1%)
+Total DSPs : 0 / 48 (0%)
+Total PLLs : 2 / 8 (25%)
+Total CLBs : 206 / 13616 (2%)
+Total Pins : 85 / 339 (25%)
+Min Slack : 1391
+EndPoints : 879

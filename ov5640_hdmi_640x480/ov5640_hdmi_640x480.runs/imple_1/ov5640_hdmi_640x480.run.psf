@@ -1,0 +1,6 @@
+source $vecdir/ov5640_hdmi_640x480.srcs/sources_1/ip/rdFIFO/rdFIFO.edc
+source $vecdir/ov5640_hdmi_640x480.srcs/sources_1/ip/wrFIFO/wrFIFO.edc
+source $vecdir/ov5640_hdmi_640x480.srcs/constrs_1/new/ov5640_hdmi_640x480.edc
+set_global_assignment -name TARGET_CONSTRAINT_FILE $vecdir/ov5640_hdmi_640x480.srcs/constrs_1/new/ov5640_hdmi_640x480.edc
+set_global_assignment -name MANUAL_ROUTE 0
+set_global_assignment -name READ_ROUTING_FILE $vecdir/ov5640_hdmi_640x480.runs/imple_1/Incremental/ov5640_hdmi_640x480.route

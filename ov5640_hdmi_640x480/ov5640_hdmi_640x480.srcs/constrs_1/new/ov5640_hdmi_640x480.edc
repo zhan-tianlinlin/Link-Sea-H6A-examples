@@ -1,0 +1,834 @@
+set_location_assignment PIN_V19 -to ov5640_data\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[0\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[0\]
+set_location_assignment PIN_Y20 -to ov5640_data\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[1\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[1\]
+set_location_assignment PIN_P18 -to ov5640_data\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[2\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[2\]
+set_location_assignment PIN_R17 -to ov5640_data\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[3\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[3\]
+set_location_assignment PIN_Y19 -to ov5640_data\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[4\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[4\]
+set_location_assignment PIN_AB19 -to ov5640_data\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[5\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[5\]
+set_location_assignment PIN_T18 -to ov5640_data\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[6\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[6\]
+set_location_assignment PIN_P19 -to ov5640_data\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_data\[7\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_data\[7\]
+set_location_assignment PIN_R19 -to ov5640_href
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_href
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_href
+set_location_assignment PIN_K17 -to ov5640_pclk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_pclk
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_pclk
+set_location_assignment PIN_V20 -to ov5640_pwdn
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_pwdn
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to ov5640_pwdn
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to ov5640_pwdn
+set_instance_assignment -name SLEW_TYPE SLOW -to ov5640_pwdn
+set_location_assignment PIN_AB20 -to ov5640_rst_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_rst_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to ov5640_rst_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to ov5640_rst_n
+set_instance_assignment -name SLEW_TYPE SLOW -to ov5640_rst_n
+set_location_assignment PIN_R16 -to ov5640_vsync
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_vsync
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ov5640_vsync
+set_location_assignment PIN_L17 -to ov5640_xclk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ov5640_xclk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to ov5640_xclk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to ov5640_xclk
+set_instance_assignment -name SLEW_TYPE SLOW -to ov5640_xclk
+set_location_assignment PIN_R15 -to sccb_scl
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sccb_scl
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sccb_scl
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sccb_scl
+set_instance_assignment -name SLEW_TYPE SLOW -to sccb_scl
+set_location_assignment PIN_P17 -to sccb_sda
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sccb_sda
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sccb_sda
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sccb_sda
+set_instance_assignment -name SLEW_TYPE SLOW -to sccb_sda
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sccb_sda
+set_location_assignment PIN_T2 -to sdram1_ba\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_ba\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_ba\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_ba\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_ba\[0\]
+set_location_assignment PIN_U1 -to sdram1_ba\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_ba\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_ba\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_ba\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_ba\[1\]
+set_location_assignment PIN_P2 -to sdram1_cas_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_cas_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_cas_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_cas_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_cas_n
+set_location_assignment PIN_N4 -to sdram1_cke
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_cke
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_cke
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_cke
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_cke
+set_location_assignment PIN_P3 -to sdram1_clk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_clk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_clk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_clk
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_clk
+set_location_assignment PIN_T1 -to sdram1_cs_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_cs_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_cs_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_cs_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_cs_n
+set_location_assignment PIN_U6 -to sdram1_dq\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[0\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[0\]
+set_location_assignment PIN_W4 -to sdram1_dq\[10\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[10\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[10\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[10\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[10\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[10\]
+set_location_assignment PIN_Y3 -to sdram1_dq\[11\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[11\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[11\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[11\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[11\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[11\]
+set_location_assignment PIN_Y4 -to sdram1_dq\[12\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[12\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[12\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[12\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[12\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[12\]
+set_location_assignment PIN_AB4 -to sdram1_dq\[13\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[13\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[13\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[13\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[13\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[13\]
+set_location_assignment PIN_V5 -to sdram1_dq\[14\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[14\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[14\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[14\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[14\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[14\]
+set_location_assignment PIN_AA2 -to sdram1_dq\[15\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[15\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[15\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[15\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[15\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[15\]
+set_location_assignment PIN_T8 -to sdram1_dq\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[1\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[1\]
+set_location_assignment PIN_R7 -to sdram1_dq\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[2\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[2\]
+set_location_assignment PIN_R8 -to sdram1_dq\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[3\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[3\]
+set_location_assignment PIN_U8 -to sdram1_dq\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[4\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[4\]
+set_location_assignment PIN_T7 -to sdram1_dq\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[5\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[5\]
+set_location_assignment PIN_P7 -to sdram1_dq\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[6\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[6\]
+set_location_assignment PIN_P5 -to sdram1_dq\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[7\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[7\]
+set_location_assignment PIN_U4 -to sdram1_dq\[8\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[8\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[8\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[8\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[8\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[8\]
+set_location_assignment PIN_W3 -to sdram1_dq\[9\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_dq\[9\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_dq\[9\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_dq\[9\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_dq\[9\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram1_dq\[9\]
+set_location_assignment PIN_R1 -to sdram1_ras_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_ras_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_ras_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_ras_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_ras_n
+set_location_assignment PIN_P1 -to sdram1_we_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1_we_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1_we_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1_we_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1_we_n
+set_location_assignment PIN_R4 -to sdram1addr\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[0\]
+set_location_assignment PIN_R3 -to sdram1addr\[10\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[10\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[10\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[10\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[10\]
+set_location_assignment PIN_AB3 -to sdram1addr\[11\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[11\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[11\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[11\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[11\]
+set_location_assignment PIN_AA4 -to sdram1addr\[12\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[12\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[12\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[12\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[12\]
+set_location_assignment PIN_T3 -to sdram1addr\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[1\]
+set_location_assignment PIN_T4 -to sdram1addr\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[2\]
+set_location_assignment PIN_U3 -to sdram1addr\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[3\]
+set_location_assignment PIN_T6 -to sdram1addr\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[4\]
+set_location_assignment PIN_V3 -to sdram1addr\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[5\]
+set_location_assignment PIN_V1 -to sdram1addr\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[6\]
+set_location_assignment PIN_Y1 -to sdram1addr\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[7\]
+set_location_assignment PIN_Y2 -to sdram1addr\[8\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[8\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[8\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[8\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[8\]
+set_location_assignment PIN_AB2 -to sdram1addr\[9\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram1addr\[9\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram1addr\[9\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram1addr\[9\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram1addr\[9\]
+set_location_assignment PIN_AB12 -to sys_clk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sys_clk
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sys_clk
+set_location_assignment PIN_B18 -to sys_rst_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sys_rst_n
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sys_rst_n
+set_location_assignment PIN_F16 -to top_led
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to top_led
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to top_led
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to top_led
+set_instance_assignment -name SLEW_TYPE SLOW -to top_led
+set_location_assignment PIN_E22 -to lcd_rgb\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[0\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[0\]
+set_location_assignment PIN_G22 -to lcd_rgb\[10\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[10\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[10\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[10\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[10\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[10\]
+set_location_assignment PIN_N16 -to lcd_rgb\[11\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[11\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[11\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[11\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[11\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[11\]
+set_location_assignment PIN_P16 -to lcd_rgb\[12\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[12\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[12\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[12\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[12\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[12\]
+set_location_assignment PIN_M17 -to lcd_rgb\[13\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[13\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[13\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[13\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[13\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[13\]
+set_location_assignment PIN_M16 -to lcd_rgb\[14\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[14\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[14\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[14\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[14\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[14\]
+set_location_assignment PIN_N20 -to lcd_rgb\[15\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[15\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[15\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[15\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[15\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[15\]
+set_location_assignment PIN_F22 -to lcd_rgb\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[1\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[1\]
+set_location_assignment PIN_C22 -to lcd_rgb\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[2\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[2\]
+set_location_assignment PIN_D22 -to lcd_rgb\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[3\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[3\]
+set_location_assignment PIN_D21 -to lcd_rgb\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[4\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[4\]
+set_location_assignment PIN_K18 -to lcd_rgb\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[5\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[5\]
+set_location_assignment PIN_L19 -to lcd_rgb\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[6\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[6\]
+set_location_assignment PIN_K19 -to lcd_rgb\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[7\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[7\]
+set_location_assignment PIN_J19 -to lcd_rgb\[8\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[8\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[8\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[8\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[8\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[8\]
+set_location_assignment PIN_J21 -to lcd_rgb\[9\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rgb\[9\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rgb\[9\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rgb\[9\]
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rgb\[9\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to lcd_rgb\[9\]
+set_location_assignment PIN_J17 -to lcd_bl
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_bl
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_bl
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_bl
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_bl
+set_location_assignment PIN_L15 -to lcd_de
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_de
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_de
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_de
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_de
+set_location_assignment PIN_E20 -to lcd_hs
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_hs
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_hs
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_hs
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_hs
+set_location_assignment PIN_K20 -to lcd_pclk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_pclk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_pclk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_pclk
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_pclk
+set_location_assignment PIN_K16 -to lcd_rst
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_rst
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_rst
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_rst
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_rst
+set_location_assignment PIN_F21 -to lcd_vs
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to lcd_vs
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to lcd_vs
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to lcd_vs
+set_instance_assignment -name SLEW_TYPE SLOW -to lcd_vs
+set_location_assignment PIN_Y10 -to sd_clk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sd_clk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sd_clk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sd_clk
+set_instance_assignment -name SLEW_TYPE SLOW -to sd_clk
+set_location_assignment PIN_W10 -to sd_cs
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sd_cs
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sd_cs
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sd_cs
+set_instance_assignment -name SLEW_TYPE SLOW -to sd_cs
+set_location_assignment PIN_R11 -to sd_miso
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sd_miso
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sd_miso
+set_location_assignment PIN_V11 -to sd_mosi
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sd_mosi
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sd_mosi
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sd_mosi
+set_instance_assignment -name SLEW_TYPE SLOW -to sd_mosi
+set_location_assignment PIN_F1 -to sdram2_ba\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_ba\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_ba\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_ba\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_ba\[0\]
+set_location_assignment PIN_H2 -to sdram2_ba\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_ba\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_ba\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_ba\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_ba\[1\]
+set_location_assignment PIN_B1 -to sdram2_cas_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_cas_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_cas_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_cas_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_cas_n
+set_location_assignment PIN_H1 -to sdram2_cke
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_cke
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_cke
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_cke
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_cke
+set_location_assignment PIN_J1 -to sdram2_clk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_clk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_clk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_clk
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_clk
+set_location_assignment PIN_F2 -to sdram2_cs_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_cs_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_cs_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_cs_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_cs_n
+set_location_assignment PIN_E3 -to sdram2_dq\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[0\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[0\]
+set_location_assignment PIN_M6 -to sdram2_dq\[10\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[10\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[10\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[10\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[10\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[10\]
+set_location_assignment PIN_N6 -to sdram2_dq\[11\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[11\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[11\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[11\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[11\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[11\]
+set_location_assignment PIN_M8 -to sdram2_dq\[12\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[12\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[12\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[12\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[12\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[12\]
+set_location_assignment PIN_P8 -to sdram2_dq\[13\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[13\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[13\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[13\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[13\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[13\]
+set_location_assignment PIN_P6 -to sdram2_dq\[14\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[14\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[14\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[14\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[14\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[14\]
+set_location_assignment PIN_P4 -to sdram2_dq\[15\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[15\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[15\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[15\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[15\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[15\]
+set_location_assignment PIN_G3 -to sdram2_dq\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[1\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[1\]
+set_location_assignment PIN_J6 -to sdram2_dq\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[2\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[2\]
+set_location_assignment PIN_H3 -to sdram2_dq\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[3\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[3\]
+set_location_assignment PIN_J4 -to sdram2_dq\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[4\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[4\]
+set_location_assignment PIN_J3 -to sdram2_dq\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[5\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[5\]
+set_location_assignment PIN_K4 -to sdram2_dq\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[6\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[6\]
+set_location_assignment PIN_K3 -to sdram2_dq\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[7\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[7\]
+set_location_assignment PIN_R9 -to sdram2_dq\[8\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[8\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[8\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[8\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[8\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[8\]
+set_location_assignment PIN_N7 -to sdram2_dq\[9\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_dq\[9\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_dq\[9\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_dq\[9\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_dq\[9\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sdram2_dq\[9\]
+set_location_assignment PIN_E1 -to sdram2_ras_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_ras_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_ras_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_ras_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_ras_n
+set_location_assignment PIN_B2 -to sdram2_we_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2_we_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2_we_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2_we_n
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2_we_n
+set_location_assignment PIN_L4 -to sdram2addr\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[0\]
+set_location_assignment PIN_L3 -to sdram2addr\[10\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[10\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[10\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[10\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[10\]
+set_location_assignment PIN_K1 -to sdram2addr\[11\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[11\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[11\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[11\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[11\]
+set_location_assignment PIN_K2 -to sdram2addr\[12\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[12\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[12\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[12\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[12\]
+set_location_assignment PIN_L6 -to sdram2addr\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[1\]
+set_location_assignment PIN_M5 -to sdram2addr\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[2\]
+set_location_assignment PIN_M4 -to sdram2addr\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[3\]
+set_location_assignment PIN_N3 -to sdram2addr\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[4\]
+set_location_assignment PIN_M7 -to sdram2addr\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[5\]
+set_location_assignment PIN_M3 -to sdram2addr\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[6\]
+set_location_assignment PIN_M1 -to sdram2addr\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[7\]
+set_location_assignment PIN_M2 -to sdram2addr\[8\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[8\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[8\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[8\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[8\]
+set_location_assignment PIN_L1 -to sdram2addr\[9\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sdram2addr\[9\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to sdram2addr\[9\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to sdram2addr\[9\]
+set_instance_assignment -name SLEW_TYPE SLOW -to sdram2addr\[9\]
+set_location_assignment PIN_AB21 -to ddc_scl
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ddc_scl
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to ddc_scl
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to ddc_scl
+set_instance_assignment -name SLEW_TYPE SLOW -to ddc_scl
+set_location_assignment PIN_AA20 -to ddc_sda
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to ddc_sda
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to ddc_sda
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to ddc_sda
+set_instance_assignment -name SLEW_TYPE SLOW -to ddc_sda
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to ddc_sda
+set_location_assignment PIN_M18 -to hdmi_out_clk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_clk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_clk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_clk
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_clk
+set_location_assignment PIN_M21 -to hdmi_out_de
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_de
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_de
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_de
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_de
+set_location_assignment PIN_R20 -to hdmi_out_hsync
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_hsync
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_hsync
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_hsync
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_hsync
+set_location_assignment PIN_J22 -to hdmi_out_rgb\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[0\]
+set_location_assignment PIN_T21 -to hdmi_out_rgb\[10\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[10\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[10\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[10\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[10\]
+set_location_assignment PIN_T20 -to hdmi_out_rgb\[11\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[11\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[11\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[11\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[11\]
+set_location_assignment PIN_K21 -to hdmi_out_rgb\[12\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[12\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[12\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[12\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[12\]
+set_location_assignment PIN_K22 -to hdmi_out_rgb\[13\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[13\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[13\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[13\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[13\]
+set_location_assignment PIN_U22 -to hdmi_out_rgb\[14\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[14\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[14\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[14\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[14\]
+set_location_assignment PIN_V22 -to hdmi_out_rgb\[15\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[15\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[15\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[15\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[15\]
+set_location_assignment PIN_V21 -to hdmi_out_rgb\[16\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[16\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[16\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[16\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[16\]
+set_location_assignment PIN_W22 -to hdmi_out_rgb\[17\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[17\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[17\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[17\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[17\]
+set_location_assignment PIN_U20 -to hdmi_out_rgb\[18\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[18\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[18\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[18\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[18\]
+set_location_assignment PIN_Y22 -to hdmi_out_rgb\[19\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[19\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[19\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[19\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[19\]
+set_location_assignment PIN_T19 -to hdmi_out_rgb\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[1\]
+set_location_assignment PIN_W20 -to hdmi_out_rgb\[20\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[20\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[20\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[20\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[20\]
+set_location_assignment PIN_AA22 -to hdmi_out_rgb\[21\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[21\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[21\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[21\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[21\]
+set_location_assignment PIN_Y21 -to hdmi_out_rgb\[22\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[22\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[22\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[22\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[22\]
+set_location_assignment PIN_AA21 -to hdmi_out_rgb\[23\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[23\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[23\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[23\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[23\]
+set_location_assignment PIN_V18 -to hdmi_out_rgb\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[2\]
+set_location_assignment PIN_V17 -to hdmi_out_rgb\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[3\]
+set_location_assignment PIN_M22 -to hdmi_out_rgb\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[4\]
+set_location_assignment PIN_N22 -to hdmi_out_rgb\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[5\]
+set_location_assignment PIN_P21 -to hdmi_out_rgb\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[6\]
+set_location_assignment PIN_P22 -to hdmi_out_rgb\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[7\]
+set_location_assignment PIN_R22 -to hdmi_out_rgb\[8\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[8\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[8\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[8\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[8\]
+set_location_assignment PIN_T22 -to hdmi_out_rgb\[9\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_rgb\[9\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_rgb\[9\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_rgb\[9\]
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_rgb\[9\]
+set_location_assignment PIN_B22 -to hdmi_out_vsync
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_vsync
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_vsync
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_vsync
+set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_vsync
+set_max_delay -from [get_pins {\sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q}] -to [get_pins {\ov5640_top_inst|ov5640_data_inst|data_out_reg[3]~I|ff/aclr}] 12.000
+set_false_path -from [get_pins {\sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q}] -to [get_pins {\ov5640_top_inst|ov5640_data_inst|data_out_reg[3]~I|ff/aclr}]
+set_false_path -from [get_pins {\sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q}] -to [get_pins {\ov5640_top_inst|ov5640_data_inst|pic_data_reg[1]~I|ff/aclr}]
+set_location_assignment PIN_H6 -to uart_rx
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to uart_rx
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to uart_rx
+set_location_assignment PIN_AA12 -to gmii_txd\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[0\]
+set_location_assignment PIN_AB11 -to gmii_txd\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[1\]
+set_location_assignment PIN_Y11 -to gmii_txd\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[2\]
+set_location_assignment PIN_AB10 -to gmii_txd\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[3\]
+set_location_assignment PIN_AA10 -to gmii_txd\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[4\]
+set_location_assignment PIN_U13 -to gmii_txd\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[5\]
+set_location_assignment PIN_R13 -to gmii_txd\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[6\]
+set_location_assignment PIN_AB13 -to gmii_txd\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[7\]
+set_location_assignment PIN_AB18 -to gmii_txen
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txen
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txen
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txen
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txen
+set_location_assignment PIN_V15 -to gtxclk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gtxclk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gtxclk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gtxclk
+set_instance_assignment -name SLEW_TYPE SLOW -to gtxclk
+set_location_assignment PIN_Y13 -to eth_reset_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to eth_reset_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to eth_reset_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to eth_reset_n
+set_instance_assignment -name SLEW_TYPE SLOW -to eth_reset_n
+set_location_assignment PIN_A18 -to key_vld\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to key_vld\[0\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to key_vld\[0\]
+set_location_assignment PIN_F10 -to key_vld\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to key_vld\[1\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to key_vld\[1\]	

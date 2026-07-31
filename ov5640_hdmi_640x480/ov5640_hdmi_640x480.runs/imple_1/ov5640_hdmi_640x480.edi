@@ -1,0 +1,587 @@
+2026-07-31 10:47:33,046 [INFO] Copyright (C) 2017-2024 eHiWAY Corporation
+2026-07-31 10:47:33,046 [INFO] Your use of eHiWAY Corporation's design tools, logic functions 
+2026-07-31 10:47:33,046 [INFO] and other software and tools, and its EMPP partner logic 
+2026-07-31 10:47:33,046 [INFO] functions, and any output files from any of the foregoing 
+2026-07-31 10:47:33,046 [INFO] (including device programming or simulation files), and any 
+2026-07-31 10:47:33,046 [INFO] associated documentation or information are expressly subject 
+2026-07-31 10:47:33,046 [INFO] to the terms and conditions of the eHiWAY Program License 
+2026-07-31 10:47:33,046 [INFO] Subscription Agreement, or other applicable license agreement, including, 
+2026-07-31 10:47:33,046 [INFO] without limitation, that your use is for the sole purpose of 
+2026-07-31 10:47:33,046 [INFO] programming logic devices manufactured by eHiWAY and sold by 
+2026-07-31 10:47:33,046 [INFO] eHiWAY or its authorized distributors.  Please refer to the 
+2026-07-31 10:47:33,046 [INFO] applicable agreement for further details.
+2026-07-31 10:47:33,046 [INFO] VENDOR "eHiWAY"
+
+2026-07-31 10:47:33,046 [INFO] PROGRAM "eLinx 64-Bit"
+2026-07-31 10:47:33,046 [INFO] VERSION "Version 3.0.7 Build 1/22/2025 Full Version"
+2026-07-31 10:47:33,086 [INFO] [UDM_Load_0]:Load eLinx design check point(.ecp) complete.
+2026-07-31 10:47:33,203 [INFO] [ARC_Proc_5]:Deserialize device ends.
+2026-07-31 10:47:33,277 [INFO] [ARC_Proc_1]:Deserialize tiles ends.
+2026-07-31 10:47:33,556 [INFO] PrePlace design rule check  start record
+
+2026-07-31 10:47:33,556 [INFO] start ucm drc.....
+
+2026-07-31 10:47:33,557 [INFO] start udm drc.....
+
+2026-07-31 10:47:33,557 [INFO] PrePlace design rule check  run times:0.00 s
+
+2026-07-31 10:47:33,587 [CRIT] [UCM_M_1]:ov5640_pclk Unconstrained
+
+2026-07-31 10:47:33,587 [CRIT] [UCM_M_1]:\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk Unconstrained
+
+2026-07-31 10:47:33,587 [CRIT] [UCM_M_1]:\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|dri_clk Unconstrained
+
+2026-07-31 10:47:33,598 [CRIT] [Timer_M_1]:set_max_delay: No valid object(s) found for -from get_pins: \sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q
+
+2026-07-31 10:47:33,598 [CRIT] [Timer_M_1]:set_false_path: No valid object(s) found for -from get_pins: \sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q
+
+2026-07-31 10:47:33,598 [CRIT] [Timer_M_1]:set_false_path: No valid object(s) found for -from get_pins: \sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q
+
+2026-07-31 10:47:33,606 [INFO] [Placer]:Launched Placer...
+2026-07-31 10:47:33,606 [DEBUG] [Placer]:Read in placement constraints...
+
+2026-07-31 10:47:33,606 [DEBUG] [Placer]:Read in PlaceOpts from UCM...
+
+2026-07-31 10:47:33,606 [DEBUG] [Placer]:there is no add_cells_to_pblock/add_insts_to_pblock in UCM.
+
+2026-07-31 10:47:33,608 [DEBUG] [Placer]:there is no create_pblock/resize_pblock in UCM.
+
+2026-07-31 10:47:33,609 [DEBUG] [Placer]:NetVec=1263
+
+2026-07-31 10:47:33,609 [DEBUG] [Placer]:vccNum=2
+
+2026-07-31 10:47:33,609 [DEBUG] [Placer]:globalNum=7
+
+2026-07-31 10:47:33,609 [DEBUG] [Placer]:internalNetNum=549
+
+2026-07-31 10:47:33,609 [DEBUG] [Placer]:emptyNum=6
+
+2026-07-31 10:47:33,611 [DEBUG] [Placer]:blkConnectedNets = 3606
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, eth_reset_n does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[0] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[1] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[2] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[3] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[4] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[5] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[6] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txd[7] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gmii_txen does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, gtxclk does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, key_vld[0] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, key_vld[1] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_bl does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_de does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_hs does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_pclk does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[0] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[10] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[11] does not exist.
+
+2026-07-31 10:47:33,611 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[12] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[13] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[14] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[15] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[1] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[2] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[3] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[4] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[5] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[6] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[7] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[8] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rgb[9] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_rst does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, lcd_vs does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sd_clk does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sd_cs does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sd_miso does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sd_mosi does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_ba[0] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_ba[1] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_cas_n does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_cke does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_clk does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_cs_n does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[0] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[10] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[11] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[12] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[13] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[14] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[15] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[1] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[2] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[3] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[4] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[5] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[6] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[7] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[8] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_dq[9] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_ras_n does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2_we_n does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[0] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[10] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[11] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[12] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[1] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[2] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[3] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[4] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[5] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[6] does not exist.
+
+2026-07-31 10:47:33,612 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[7] does not exist.
+
+2026-07-31 10:47:33,613 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[8] does not exist.
+
+2026-07-31 10:47:33,613 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, sdram2addr[9] does not exist.
+
+2026-07-31 10:47:33,613 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, top_led does not exist.
+
+2026-07-31 10:47:33,613 [CRIT] [Placer_Udmin_23]: The settings about block location in UCM are incorrect, uart_rx does not exist.
+
+2026-07-31 10:47:33,613 [DEBUG] [Placer]:there is no INCREMENTAL_IMPLEMENTATION settings in UCM.
+
+2026-07-31 10:47:33,619 [DEBUG] [Placer]:Clk sig num is 6
+
+2026-07-31 10:47:33,619 [DEBUG] [Placer]:Interface run-time is 0.014 seconds
+
+2026-07-31 10:47:33,728 [DEBUG] [Placer]: Completed placement consistency check successfully.
+
+2026-07-31 10:47:33,770 [DEBUG] [Placer]:Creating initial analytic placement for 211 cells, random placement wirelen = 113118
+
+2026-07-31 10:47:33,778 [DEBUG] [Placer]:at initial placer iter 0, wirelen = 6892
+
+2026-07-31 10:47:33,784 [DEBUG] [Placer]:at initial placer iter 1, wirelen = 6788
+
+2026-07-31 10:47:33,791 [DEBUG] [Placer]:at initial placer iter 2, wirelen = 6784
+
+2026-07-31 10:47:33,797 [DEBUG] [Placer]:at initial placer iter 3, wirelen = 6784
+
+2026-07-31 10:47:33,797 [DEBUG] [Placer]:Running main analytical placer.
+
+2026-07-31 10:47:33,804 [DEBUG] [Placer]:Heap at iteration 1, wirelen solved = 6862, spread = 16857, legal = 16896, best_hpwl = 2147483647.
+
+2026-07-31 10:47:33,807 [DEBUG] [Placer]:Heap at iteration 1, wirelen solved = 13794, spread = 14148, legal = 14181, best_hpwl = 2147483647.
+
+2026-07-31 10:47:33,815 [DEBUG] [Placer]:Heap at iteration 1, wirelen solved = 6817, spread = 19159, legal = 17447, best_hpwl = 2147483647.
+
+2026-07-31 10:47:33,843 [DEBUG] [Placer]:Heap at iteration 2, wirelen solved = 7646, spread = 18998, legal = 19028, best_hpwl = 17447.
+
+2026-07-31 10:47:33,846 [DEBUG] [Placer]:Heap at iteration 2, wirelen solved = 16385, spread = 16519, legal = 16575, best_hpwl = 17447.
+
+2026-07-31 10:47:33,854 [DEBUG] [Placer]:Heap at iteration 2, wirelen solved = 6959, spread = 19588, legal = 18281, best_hpwl = 17447.
+
+2026-07-31 10:47:33,880 [DEBUG] [Placer]:Heap at iteration 3, wirelen solved = 7697, spread = 19157, legal = 19184, best_hpwl = 17447.
+
+2026-07-31 10:47:33,883 [DEBUG] [Placer]:Heap at iteration 3, wirelen solved = 16691, spread = 16837, legal = 16832, best_hpwl = 17447.
+
+2026-07-31 10:47:33,891 [DEBUG] [Placer]:Heap at iteration 3, wirelen solved = 7185, spread = 18538, legal = 18315, best_hpwl = 17447.
+
+2026-07-31 10:47:33,916 [DEBUG] [Placer]:Heap at iteration 4, wirelen solved = 7674, spread = 18704, legal = 18700, best_hpwl = 17447.
+
+2026-07-31 10:47:33,919 [DEBUG] [Placer]:Heap at iteration 4, wirelen solved = 16196, spread = 16336, legal = 16308, best_hpwl = 17447.
+
+2026-07-31 10:47:33,928 [DEBUG] [Placer]:Heap at iteration 4, wirelen solved = 7287, spread = 18036, legal = 17859, best_hpwl = 17447.
+
+2026-07-31 10:47:33,953 [DEBUG] [Placer]:Heap at iteration 5, wirelen solved = 8565, spread = 18356, legal = 18375, best_hpwl = 17447.
+
+2026-07-31 10:47:33,957 [DEBUG] [Placer]:Heap at iteration 5, wirelen solved = 16639, spread = 16753, legal = 16773, best_hpwl = 17447.
+
+2026-07-31 10:47:33,965 [DEBUG] [Placer]:Heap at iteration 5, wirelen solved = 7318, spread = 20971, legal = 20830, best_hpwl = 17447.
+
+2026-07-31 10:47:33,992 [DEBUG] [Placer]:Heap at iteration 6, wirelen solved = 8459, spread = 19687, legal = 19718, best_hpwl = 17447.
+
+2026-07-31 10:47:33,995 [DEBUG] [Placer]:Heap at iteration 6, wirelen solved = 17348, spread = 17443, legal = 17558, best_hpwl = 17447.
+
+2026-07-31 10:47:34,003 [DEBUG] [Placer]:Heap at iteration 6, wirelen solved = 7451, spread = 11989, legal = 11897, best_hpwl = 17447.
+
+2026-07-31 10:47:34,029 [DEBUG] [Placer]:Heap at iteration 7, wirelen solved = 7916, spread = 15767, legal = 15776, best_hpwl = 11897.
+
+2026-07-31 10:47:34,032 [DEBUG] [Placer]:Heap at iteration 7, wirelen solved = 14957, spread = 15111, legal = 15175, best_hpwl = 11897.
+
+2026-07-31 10:47:34,040 [DEBUG] [Placer]:Heap at iteration 7, wirelen solved = 7411, spread = 16172, legal = 16158, best_hpwl = 11897.
+
+2026-07-31 10:47:34,066 [DEBUG] [Placer]:Heap at iteration 8, wirelen solved = 8009, spread = 12271, legal = 12323, best_hpwl = 11897.
+
+2026-07-31 10:47:34,069 [DEBUG] [Placer]:Heap at iteration 8, wirelen solved = 11661, spread = 11847, legal = 12033, best_hpwl = 11897.
+
+2026-07-31 10:47:34,077 [DEBUG] [Placer]:Heap at iteration 8, wirelen solved = 7490, spread = 15363, legal = 15254, best_hpwl = 11897.
+
+2026-07-31 10:47:34,102 [DEBUG] [Placer]:Heap at iteration 9, wirelen solved = 7974, spread = 11909, legal = 11873, best_hpwl = 11897.
+
+2026-07-31 10:47:34,107 [DEBUG] [Placer]:Heap at iteration 9, wirelen solved = 11513, spread = 11772, legal = 11910, best_hpwl = 11897.
+
+2026-07-31 10:47:34,118 [DEBUG] [Placer]:Heap at iteration 9, wirelen solved = 7526, spread = 15439, legal = 15435, best_hpwl = 11897.
+
+2026-07-31 10:47:34,143 [DEBUG] [Placer]:Heap at iteration 10, wirelen solved = 8057, spread = 11839, legal = 11943, best_hpwl = 11897.
+
+2026-07-31 10:47:34,146 [DEBUG] [Placer]:Heap at iteration 10, wirelen solved = 11523, spread = 11803, legal = 11840, best_hpwl = 11897.
+
+2026-07-31 10:47:34,154 [DEBUG] [Placer]:Heap at iteration 10, wirelen solved = 7561, spread = 15151, legal = 15257, best_hpwl = 11897.
+
+2026-07-31 10:47:34,178 [DEBUG] [Placer]:Heap at iteration 11, wirelen solved = 8093, spread = 12295, legal = 12423, best_hpwl = 11897.
+
+2026-07-31 10:47:34,181 [DEBUG] [Placer]:Heap at iteration 11, wirelen solved = 12024, spread = 12257, legal = 12377, best_hpwl = 11897.
+
+2026-07-31 10:47:34,189 [DEBUG] [Placer]:Heap at iteration 11, wirelen solved = 7585, spread = 15082, legal = 15073, best_hpwl = 11897.
+
+2026-07-31 10:47:34,215 [DEBUG] [Placer]:Heap at iteration 12, wirelen solved = 8143, spread = 12753, legal = 12645, best_hpwl = 11897.
+
+2026-07-31 10:47:34,218 [DEBUG] [Placer]:Heap at iteration 12, wirelen solved = 12234, spread = 12468, legal = 12642, best_hpwl = 11897.
+
+2026-07-31 10:47:34,226 [DEBUG] [Placer]:Heap at iteration 12, wirelen solved = 7677, spread = 15044, legal = 15081, best_hpwl = 11897.
+
+2026-07-31 10:47:34,253 [DEBUG] [Placer]:Heap at iteration 13, wirelen solved = 8152, spread = 12663, legal = 12557, best_hpwl = 11897.
+
+2026-07-31 10:47:34,256 [DEBUG] [Placer]:Heap at iteration 13, wirelen solved = 12101, spread = 12372, legal = 12561, best_hpwl = 11897.
+
+2026-07-31 10:47:34,264 [DEBUG] [Placer]:Heap at iteration 13, wirelen solved = 7817, spread = 15459, legal = 15251, best_hpwl = 11897.
+
+2026-07-31 10:47:34,290 [DEBUG] [Placer]:Heap at iteration 14, wirelen solved = 8240, spread = 11662, legal = 11886, best_hpwl = 11897.
+
+2026-07-31 10:47:34,293 [DEBUG] [Placer]:Heap at iteration 14, wirelen solved = 11520, spread = 11814, legal = 11853, best_hpwl = 11897.
+
+2026-07-31 10:47:34,300 [DEBUG] [Placer]:Heap at iteration 14, wirelen solved = 7791, spread = 15573, legal = 15590, best_hpwl = 11897.
+
+2026-07-31 10:47:34,327 [DEBUG] [Placer]:Heap at iteration 15, wirelen solved = 8286, spread = 12999, legal = 13129, best_hpwl = 11897.
+
+2026-07-31 10:47:34,329 [DEBUG] [Placer]:Heap at iteration 15, wirelen solved = 12839, spread = 13179, legal = 13183, best_hpwl = 11897.
+
+2026-07-31 10:47:34,337 [DEBUG] [Placer]:Heap at iteration 15, wirelen solved = 7906, spread = 14747, legal = 14699, best_hpwl = 11897.
+
+2026-07-31 10:47:34,362 [DEBUG] [Placer]:Heap at iteration 16, wirelen solved = 8475, spread = 12174, legal = 12292, best_hpwl = 11897.
+
+2026-07-31 10:47:34,365 [DEBUG] [Placer]:Heap at iteration 16, wirelen solved = 12040, spread = 12378, legal = 12386, best_hpwl = 11897.
+
+2026-07-31 10:47:34,374 [DEBUG] [Placer]:Heap at iteration 16, wirelen solved = 7929, spread = 14783, legal = 14807, best_hpwl = 11897.
+
+2026-07-31 10:47:34,400 [DEBUG] [Placer]:Heap at iteration 17, wirelen solved = 8403, spread = 11939, legal = 11965, best_hpwl = 11897.
+
+2026-07-31 10:47:34,403 [DEBUG] [Placer]:Heap at iteration 17, wirelen solved = 11707, spread = 11942, legal = 11975, best_hpwl = 11897.
+
+2026-07-31 10:47:34,411 [DEBUG] [Placer]:Heap at iteration 17, wirelen solved = 8034, spread = 13446, legal = 13476, best_hpwl = 11897.
+
+2026-07-31 10:47:34,436 [DEBUG] [Placer]:Heap at iteration 18, wirelen solved = 8408, spread = 13132, legal = 13168, best_hpwl = 11897.
+
+2026-07-31 10:47:34,439 [DEBUG] [Placer]:Heap at iteration 18, wirelen solved = 12874, spread = 13078, legal = 13133, best_hpwl = 11897.
+
+2026-07-31 10:47:34,446 [DEBUG] [Placer]:Heap at iteration 18, wirelen solved = 7954, spread = 11658, legal = 11946, best_hpwl = 11897.
+
+2026-07-31 10:47:34,471 [DEBUG] [Placer]:Heap at iteration 19, wirelen solved = 8575, spread = 13154, legal = 13259, best_hpwl = 11897.
+
+2026-07-31 10:47:34,473 [DEBUG] [Placer]:Heap at iteration 19, wirelen solved = 13025, spread = 13249, legal = 13249, best_hpwl = 11897.
+
+2026-07-31 10:47:34,481 [DEBUG] [Placer]:Heap at iteration 19, wirelen solved = 8037, spread = 14135, legal = 14131, best_hpwl = 11897.
+
+2026-07-31 10:47:34,507 [DEBUG] [Placer]:Heap at iteration 20, wirelen solved = 8587, spread = 12129, legal = 12385, best_hpwl = 11897.
+
+2026-07-31 10:47:34,510 [DEBUG] [Placer]:Heap at iteration 20, wirelen solved = 12075, spread = 12310, legal = 12333, best_hpwl = 11897.
+
+2026-07-31 10:47:34,517 [DEBUG] [Placer]:Heap at iteration 20, wirelen solved = 8140, spread = 13406, legal = 13580, best_hpwl = 11897.
+
+2026-07-31 10:47:34,543 [DEBUG] [Placer]:Heap at iteration 21, wirelen solved = 8577, spread = 11662, legal = 11775, best_hpwl = 11897.
+
+2026-07-31 10:47:34,546 [DEBUG] [Placer]:Heap at iteration 21, wirelen solved = 11519, spread = 11863, legal = 11859, best_hpwl = 11897.
+
+2026-07-31 10:47:34,553 [DEBUG] [Placer]:Heap at iteration 21, wirelen solved = 8140, spread = 13340, legal = 13403, best_hpwl = 11897.
+
+2026-07-31 10:47:34,579 [DEBUG] [Placer]:Heap at iteration 22, wirelen solved = 8695, spread = 11966, legal = 12157, best_hpwl = 11897.
+
+2026-07-31 10:47:34,581 [DEBUG] [Placer]:Heap at iteration 22, wirelen solved = 11954, spread = 12146, legal = 12153, best_hpwl = 11897.
+
+2026-07-31 10:47:34,589 [DEBUG] [Placer]:Heap at iteration 22, wirelen solved = 8180, spread = 12026, legal = 12296, best_hpwl = 11897.
+
+2026-07-31 10:47:34,615 [DEBUG] [Placer]:Heap at iteration 23, wirelen solved = 8628, spread = 12532, legal = 12570, best_hpwl = 11897.
+
+2026-07-31 10:47:34,618 [DEBUG] [Placer]:Heap at iteration 23, wirelen solved = 12358, spread = 12795, legal = 12711, best_hpwl = 11897.
+
+2026-07-31 10:47:34,625 [DEBUG] [Placer]:Heap at iteration 23, wirelen solved = 8002, spread = 11863, legal = 12229, best_hpwl = 11897.
+
+2026-07-31 10:47:34,651 [DEBUG] [Placer]:Heap at iteration 24, wirelen solved = 8812, spread = 12617, legal = 12655, best_hpwl = 11897.
+
+2026-07-31 10:47:34,654 [DEBUG] [Placer]:Heap at iteration 24, wirelen solved = 12211, spread = 12587, legal = 12564, best_hpwl = 11897.
+
+2026-07-31 10:47:34,661 [DEBUG] [Placer]:Heap at iteration 24, wirelen solved = 8196, spread = 11791, legal = 12132, best_hpwl = 11897.
+
+2026-07-31 10:47:34,687 [DEBUG] [Placer]:Heap at iteration 25, wirelen solved = 9029, spread = 12454, legal = 12447, best_hpwl = 11897.
+
+2026-07-31 10:47:34,690 [DEBUG] [Placer]:Heap at iteration 25, wirelen solved = 11975, spread = 12405, legal = 12417, best_hpwl = 11897.
+
+2026-07-31 10:47:34,697 [DEBUG] [Placer]:Heap at iteration 25, wirelen solved = 8249, spread = 11839, legal = 12166, best_hpwl = 11897.
+
+2026-07-31 10:47:34,723 [DEBUG] [Placer]:Heap at iteration 26, wirelen solved = 8929, spread = 12727, legal = 12719, best_hpwl = 11897.
+
+2026-07-31 10:47:34,726 [DEBUG] [Placer]:Heap at iteration 26, wirelen solved = 12349, spread = 12748, legal = 12752, best_hpwl = 11897.
+
+2026-07-31 10:47:34,733 [DEBUG] [Placer]:Heap at iteration 26, wirelen solved = 8358, spread = 11841, legal = 12263, best_hpwl = 11897.
+
+2026-07-31 10:47:34,773 [DEBUG] [Placer]:Before place detail, current WNS: -2955.
+
+2026-07-31 10:47:34,821 [DEBUG] [Placer]:ZeroTSwap current WNS: -2705.
+
+2026-07-31 10:47:34,821 [DEBUG] [Placer]: Completed placement consistency check successfully.
+
+2026-07-31 10:47:34,863 [DEBUG] [Placer]:Shortest path place get better, current WNS: -2580.
+
+2026-07-31 10:47:34,939 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2026-07-31 10:47:35,000 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2026-07-31 10:47:35,051 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2026-07-31 10:47:35,098 [DEBUG] [Placer]:Shortest path place RestoreBestPlace.
+
+2026-07-31 10:47:35,098 [DEBUG] [Placer]:Shortest path place with max_level, adjust_count: 68 finished.
+
+2026-07-31 10:47:35,098 [DEBUG] [Placer]: Completed placement consistency check successfully.
+
+2026-07-31 10:47:35,098 [DEBUG] [Placer]:Place run-time is 1.479 seconds
+
+2026-07-31 10:47:35,100 [DEBUG] [Placer]:WriteUDM run-time is 0.001 seconds
+
+2026-07-31 10:47:35,100 [INFO] [Placer]:Placer time consumed 1.494 second<s>.
+2026-07-31 10:47:35,100 [INFO] [Placer]:Placer process is complete.
+2026-07-31 10:47:35,100 [INFO] [Placer]:Start clear place data...
+
+2026-07-31 10:47:35,100 [INFO] [Placer]:Complete clear place successfully...
+
+2026-07-31 10:47:35,152 [INFO] [Router_G_0]:Initializing Arc is completed
+2026-07-31 10:47:35,152 [INFO] [Router_Proc_0]:Launched Router...
+2026-07-31 10:47:35,153 [INFO] [Router_Proc_0]:Processing ucm is completed
+2026-07-31 10:47:35,189 [INFO] [Router_Proc_0]:Processing udm is completed
+2026-07-31 10:47:35,191 [INFO] [Router_C_2]:Initializing ThreadPool is completed
+2026-07-31 10:47:35,260 [INFO] [Router_C_9]:Start try routing vcc and gnd nets.
+2026-07-31 10:47:35,294 [INFO] [Router_C_9]:Start try routing clk nets.
+2026-07-31 10:47:35,651 [INFO] [Router_C_0]:  routed itry: 1
+2026-07-31 10:47:35,824 [INFO] [Router_C_0]:  routed itry: 2
+2026-07-31 10:47:35,867 [INFO] [Router_C_0]:  routed itry: 3
+2026-07-31 10:47:36,029 [INFO] [Router_C_0]:  routed itry: 4
+2026-07-31 10:47:36,200 [INFO] [Router_C_0]:  routed itry: 5
+2026-07-31 10:47:36,367 [INFO] [Router_C_0]:  routed itry: 6
+2026-07-31 10:47:36,640 [INFO] [Router_C_0]:  routed itry: 7
+2026-07-31 10:47:36,783 [INFO] [Router_C_0]:  routed itry: 8
+2026-07-31 10:47:36,888 [INFO] [Router_C_0]:  routed itry: 9
+2026-07-31 10:47:36,990 [INFO] [Router_C_0]:  routed itry: 10
+2026-07-31 10:47:37,168 [INFO] [Router_C_0]:  routed itry: 11
+2026-07-31 10:47:37,251 [INFO] [Router_C_0]:  routed itry: 12
+2026-07-31 10:47:37,314 [INFO] [Router_C_0]:  routed itry: 13
+2026-07-31 10:47:37,403 [INFO] [Router_C_0]:  routed itry: 14
+2026-07-31 10:47:37,635 [INFO] [Router_C_0]:  routed itry: 15
+2026-07-31 10:47:37,872 [INFO] [Router_C_0]:  routed itry: 16
+2026-07-31 10:47:37,972 [INFO] [Router_C_0]:  routed itry: 17
+2026-07-31 10:47:38,051 [INFO] [Router_C_0]:  routed itry: 18
+2026-07-31 10:47:38,201 [INFO] [Router_C_0]:  routed itry: 19
+2026-07-31 10:47:38,362 [INFO] [Router_C_0]:  routed itry: 20
+2026-07-31 10:47:38,596 [INFO] [Router_C_0]:  routed itry: 21
+2026-07-31 10:47:38,680 [INFO] [Router_C_0]:  routed itry: 22
+2026-07-31 10:47:38,802 [INFO] [Router_C_0]:  routed itry: 23
+2026-07-31 10:47:38,985 [INFO] [Router_C_0]:  routed itry: 24
+2026-07-31 10:47:39,186 [INFO] [Router_C_0]:  routed itry: 25
+2026-07-31 10:47:39,294 [INFO] [Router_C_0]:  routed itry: 26
+2026-07-31 10:47:39,430 [INFO] [Router_C_0]:  routed itry: 27
+2026-07-31 10:47:39,629 [INFO] [Router_C_0]:  routed itry: 28
+2026-07-31 10:47:39,783 [INFO] [Router_C_0]:  routed itry: 29
+2026-07-31 10:47:39,909 [INFO] [Router_C_0]:  routed itry: 30
+2026-07-31 10:47:40,022 [INFO] [Router_C_0]:  routed itry: 31
+2026-07-31 10:47:40,233 [INFO] [Router_C_0]:  routed itry: 32
+2026-07-31 10:47:40,431 [INFO] [Router_C_0]:  routed itry: 33
+2026-07-31 10:47:40,548 [INFO] [Router_C_0]:  routed itry: 34
+2026-07-31 10:47:40,781 [INFO] [Router_C_0]:  routed itry: 35
+2026-07-31 10:47:40,925 [INFO] [Router_C_0]:  routed itry: 36
+2026-07-31 10:47:41,006 [INFO] [Router_C_0]:  routed itry: 37
+2026-07-31 10:47:41,232 [INFO] [Router_C_0]:  routed itry: 38
+2026-07-31 10:47:41,461 [INFO] [Router_C_0]:  routed itry: 39
+2026-07-31 10:47:41,651 [INFO] [Router_C_0]:  routed itry: 40
+2026-07-31 10:47:41,748 [INFO] [Router_C_0]:  routed itry: 41
+2026-07-31 10:47:41,834 [INFO] [Router_C_0]:  routed itry: 42
+2026-07-31 10:47:41,940 [INFO] [Router_C_0]:  routed itry: 43
+2026-07-31 10:47:42,174 [INFO] [Router_C_0]:  routed itry: 44
+2026-07-31 10:47:42,355 [INFO] [Router_C_0]:  routed itry: 45
+2026-07-31 10:47:42,589 [INFO] [Router_C_0]:  routed itry: 46
+2026-07-31 10:47:42,712 [INFO] [Router_C_0]:  routed itry: 47
+2026-07-31 10:47:42,818 [INFO] [Router_C_0]:  routed itry: 48
+2026-07-31 10:47:43,030 [INFO] [Router_C_0]:  routed itry: 49
+2026-07-31 10:47:43,205 [INFO] [Router_C_0]:  routed itry: 50
+2026-07-31 10:47:43,338 [INFO] [Router_C_0]:  routed itry: 51
+2026-07-31 10:47:43,545 [INFO] [Router_C_0]:  routed itry: 52
+2026-07-31 10:47:43,666 [INFO] [Router_C_0]:  routed itry: 53
+2026-07-31 10:47:43,869 [INFO] [Router_C_0]:  routed itry: 54
+2026-07-31 10:47:44,102 [INFO] [Router_C_0]:  routed itry: 55
+2026-07-31 10:47:44,180 [INFO] [Router_C_0]:  routed itry: 56
+2026-07-31 10:47:44,322 [INFO] [Router_C_0]:  routed itry: 57
+2026-07-31 10:47:44,504 [INFO] [Router_C_0]:  routed itry: 58
+2026-07-31 10:47:44,568 [INFO] [Router_C_0]:  routed itry: 59
+2026-07-31 10:47:44,704 [INFO] [Router_C_0]:  routed itry: 60
+2026-07-31 10:47:44,704 [INFO] [Router_G_0]:Try to reduce clk num.Itry: 
+
+2026-07-31 10:47:44,704 [INFO] [Router_G_0]:clk net: 577 go channel route!
+
+2026-07-31 10:47:44,752 [INFO] [Router_C_0]:  routed itry: 2
+2026-07-31 10:47:44,784 [INFO] [Router_C_0]:  routed itry: 3
+2026-07-31 10:47:44,831 [INFO] [Router_C_0]:  routed itry: 4
+2026-07-31 10:47:44,868 [INFO] [Router_C_0]:  routed itry: 5
+2026-07-31 10:47:44,922 [INFO] [Router_C_0]:  routed itry: 6
+2026-07-31 10:47:45,182 [INFO] [Router_C_0]:  routed itry: 7
+2026-07-31 10:47:45,233 [INFO] [Router_C_0]:  routed itry: 8
+2026-07-31 10:47:45,290 [INFO] [Router_C_0]:  routed itry: 9
+2026-07-31 10:47:45,321 [INFO] [Router_C_0]:  routed itry: 10
+2026-07-31 10:47:45,382 [INFO] [Router_C_0]:  routed itry: 11
+2026-07-31 10:47:45,429 [INFO] [Router_C_0]:  routed itry: 12
+2026-07-31 10:47:45,462 [INFO] [Router_C_0]:  routed itry: 13
+2026-07-31 10:47:45,675 [INFO] [Router_C_0]:  routed itry: 14
+2026-07-31 10:47:45,724 [INFO] [Router_C_0]:  routed itry: 15
+2026-07-31 10:47:45,750 [INFO] [Router_C_0]:  routed itry: 16
+2026-07-31 10:47:45,793 [INFO] [Router_C_0]:  routed itry: 17
+2026-07-31 10:47:45,823 [INFO] [Router_C_0]:  routed itry: 18
+2026-07-31 10:47:45,872 [INFO] [Router_C_0]:  routed itry: 19
+2026-07-31 10:47:45,926 [INFO] [Router_C_0]:  routed itry: 20
+2026-07-31 10:47:45,984 [INFO] [Router_C_0]:  routed itry: 21
+2026-07-31 10:47:46,016 [INFO] [Router_C_0]:  routed itry: 22
+2026-07-31 10:47:46,084 [INFO] [Router_C_0]:  routed itry: 23
+2026-07-31 10:47:46,141 [INFO] [Router_C_0]:  routed itry: 24
+2026-07-31 10:47:46,172 [INFO] [Router_C_0]:  routed itry: 25
+2026-07-31 10:47:46,230 [INFO] [Router_C_0]:  routed itry: 26
+2026-07-31 10:47:46,256 [INFO] [Router_C_0]:  routed itry: 27
+2026-07-31 10:47:46,303 [INFO] [Router_C_0]:  routed itry: 28
+2026-07-31 10:47:46,347 [INFO] [Router_C_0]:  routed itry: 29
+2026-07-31 10:47:46,404 [INFO] [Router_C_0]:  routed itry: 30
+2026-07-31 10:47:46,433 [INFO] [Router_C_0]:  routed itry: 31
+2026-07-31 10:47:46,493 [INFO] [Router_C_0]:  routed itry: 32
+2026-07-31 10:47:46,522 [INFO] [Router_C_0]:  routed itry: 33
+2026-07-31 10:47:46,584 [INFO] [Router_C_0]:  routed itry: 34
+2026-07-31 10:47:46,651 [INFO] [Router_C_0]:  routed itry: 35
+2026-07-31 10:47:46,678 [INFO] [Router_C_0]:  routed itry: 36
+2026-07-31 10:47:46,733 [INFO] [Router_C_0]:  routed itry: 37
+2026-07-31 10:47:46,761 [INFO] [Router_C_0]:  routed itry: 38
+2026-07-31 10:47:46,820 [INFO] [Router_C_0]:  routed itry: 39
+2026-07-31 10:47:46,884 [INFO] [Router_C_0]:  routed itry: 40
+2026-07-31 10:47:46,922 [INFO] [Router_C_0]:  routed itry: 41
+2026-07-31 10:47:46,976 [INFO] [Router_C_0]:  routed itry: 42
+2026-07-31 10:47:47,011 [INFO] [Router_C_0]:  routed itry: 43
+2026-07-31 10:47:47,078 [INFO] [Router_C_0]:  routed itry: 44
+2026-07-31 10:47:47,301 [INFO] [Router_C_0]:  routed itry: 45
+2026-07-31 10:47:47,346 [INFO] [Router_C_0]:  routed itry: 46
+2026-07-31 10:47:47,388 [INFO] [Router_C_0]:  routed itry: 47
+2026-07-31 10:47:47,427 [INFO] [Router_C_0]:  routed itry: 48
+2026-07-31 10:47:47,453 [INFO] [Router_C_0]:  routed itry: 49
+2026-07-31 10:47:47,499 [INFO] [Router_C_0]:  routed itry: 50
+2026-07-31 10:47:47,543 [INFO] [Router_C_0]:  routed itry: 51
+2026-07-31 10:47:47,573 [INFO] [Router_C_0]:  routed itry: 52
+2026-07-31 10:47:47,624 [INFO] [Router_C_0]:  routed itry: 53
+2026-07-31 10:47:47,657 [INFO] [Router_C_0]:  routed itry: 54
+2026-07-31 10:47:47,712 [INFO] [Router_C_0]:  routed itry: 55
+2026-07-31 10:47:47,763 [INFO] [Router_C_0]:  routed itry: 56
+2026-07-31 10:47:47,792 [INFO] [Router_C_0]:  routed itry: 57
+2026-07-31 10:47:47,840 [INFO] [Router_C_0]:  routed itry: 58
+2026-07-31 10:47:47,870 [INFO] [Router_C_0]:  routed itry: 59
+2026-07-31 10:47:47,919 [INFO] [Router_C_0]:  routed itry: 60
+2026-07-31 10:47:47,919 [INFO] [Router_G_0]:Try to reduce clk num.Itry: 
+
+2026-07-31 10:47:47,919 [INFO] [Router_G_0]:clk net: 63 go channel route!
+
+2026-07-31 10:47:47,938 [INFO] [Router_C_10]:Try routing clk nets is successful.
+2026-07-31 10:47:49,630 [INFO] [Router_C_0]:  routed itry: 1
+2026-07-31 10:47:49,689 [INFO] [Router_C_0]:  routed itry: 2
+2026-07-31 10:47:49,752 [INFO] [Router_C_0]:  routed itry: 3
+2026-07-31 10:47:49,790 [INFO] [Router_C_0]:  routed itry: 4
+2026-07-31 10:47:49,826 [INFO] [Router_C_0]:  routed itry: 5
+2026-07-31 10:47:49,848 [INFO] [Router_C_0]:  routed itry: 6
+2026-07-31 10:47:49,872 [INFO] [Router_C_0]:  routed itry: 7
+2026-07-31 10:47:49,886 [INFO] [Router_C_5]:Start fixing setup violation connections.
+2026-07-31 10:47:49,927 [INFO] [Router_C_4]:Route:fix hold violation begin...
+2026-07-31 10:47:49,990 [INFO] [Router_C_5]:Route:fix hold violation end.
+2026-07-31 10:47:49,991 [INFO] Channel routing is completed
+2026-07-31 10:47:50,098 [INFO] Internal routing is completed
+2026-07-31 10:47:50,120 [INFO] [BitGen_Proc_6]:Launched bram extraction...
+2026-07-31 10:47:50,169 [INFO] [BitGen_Proc_7]:Bram extraction success.
+2026-07-31 10:47:50,169 [INFO] [BitGen_Proc_8]:Launched bram configuration...
+2026-07-31 10:47:50,172 [INFO] [BitGen_Proc_9]:Bram configuration success.
+2026-07-31 10:47:50,172 [INFO] [BitGen_Proc_10]:Bram processing total time consumed 0.046 second(s).
+2026-07-31 10:47:50,500 [INFO] ClockName: \clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk0 ClockFmax: 116.158(MHz)
+2026-07-31 10:47:50,500 [INFO] ClockName: \clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk2 ClockFmax: 140.825(MHz)
+2026-07-31 10:47:50,500 [INFO] ClockName: \clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk3 ClockFmax: 207.469(MHz)
+2026-07-31 10:47:50,500 [INFO] ClockName: \clk_pll_2:clk_gen_inst2|altpll:altpll_component|_clk0 ClockFmax: 328.084(MHz)
+2026-07-31 10:47:50,500 [INFO] ClockName: ov5640_pclk ClockFmax: 125.188(MHz)
+2026-07-31 10:47:50,500 [INFO] ClockName: \ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk ClockFmax: 251.004(MHz)
+2026-07-31 10:47:50,500 [INFO] ClockName: \sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|dri_clk ClockFmax: 168.464(MHz)
+2026-07-31 10:47:50,775 [INFO] WNS: 0.000 ns WHS: 0.000 ns TNS:0.000 ns THS:0.000 ns
+2026-07-31 10:47:50,927 [INFO] [Router_Proc_2]:Write routing to file is completed.Router time consumed 14.6274 second(s).
+2026-07-31 10:47:50,948 [INFO] [Router_Proc_2]:Write routing to udm is completed.Router time consumed 14.6274 second(s).
+2026-07-31 10:47:50,949 [INFO] Writing statistical info to file is completed
+2026-07-31 10:47:50,968 [INFO] Delete Interface is completed
+2026-07-31 10:47:51,057 [INFO] [UDM_Save_0]:Save eLinx design check point(.ecp) complete.

@@ -1,0 +1,417 @@
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Analysis & Synthesis
+    Info: Version 3.0 
+    Info: Copyright (C) 2006-2024 eHiWay Corporation. All rights reserved.
+    Info: Your use of eHiWay Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the eHiWay Program License 
+    Info: Subscription Agreement, eHiWay MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by eHiWay and sold by 
+    Info: eHiWay or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Fri Jul 31 10:47:19 2026
+Info: Command: ehiway_map --read_settings_files=on --write_settings_files=off ov5640_hdmi_640x480
+Info : Parallel Compilation has detected 20 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 14 of the 14 physical processors detected instead.
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sil9134_hdmi/i2c_sil9134_hdmi_cfg.v
+    Info : Found entity 1: i2c_sil9134_hdmi_cfg
+Info : Found 0 design units, including 0 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sdram/sdram_para.v
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/ip/clk_pll_1/clk_pll_1.v
+    Info : Found entity 1: clk_pll_1
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sil9134_hdmi/sil9134_dri.v
+    Info : Found entity 1: sil9134_dri
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sil9134_hdmi/i2c_dri.v
+    Info : Found entity 1: i2c_dri
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/ov5640_init/ov5640_cfg.v
+    Info : Found entity 1: ov5640_cfg
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/ov5640_init/ov5640_top.v
+    Info : Found entity 1: ov5640_top
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sdram/sdram_controller.v
+    Info : Found entity 1: sdram_controller
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/ov5640_init/dvp_capture.v
+    Info : Found entity 1: DVP_Capture
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sdram/sdram_data.v
+    Info : Found entity 1: sdram_data
+Info : Found 2 design units, including 2 entities, in source file /program files (x86)/ehiway/elinx3.0/bin/ip/gui/temp/ov5640_hdmi_640x480/rdfifo/dcfifo_mixed_inst.v
+    Info : Found entity 1: dcfifo_mixed_inst
+    Info : Found entity 2: dcfifo_inst
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/ov5640_init/i2c_ctrl.v
+    Info : Found entity 1: i2c_ctrl
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/ov5640_hdmi_top.v
+    Info : Found entity 1: ov5640_hdmi_top
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/ip/rdfifo/rdfifo.v
+    Info : Found entity 1: rdFIFO
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sdram/sdram_top.v
+    Info : Found entity 1: sdram_top
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/ip/wrfifo/wrfifo.v
+    Info : Found entity 1: wrFIFO
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/ip/clk_pll_2/clk_pll_2.v
+    Info : Found entity 1: clk_pll_2
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sdram/sdram_ctrl.v
+    Info : Found entity 1: sdram_ctrl
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sdram/sdram_cmd.v
+    Info : Found entity 1: sdram_cmd
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/video_driver.v
+    Info : Found entity 1: video_driver
+Info : Found 1 design units, including 1 entities, in source file ov5640_hdmi_640x480.srcs/sources_1/new/sdram/sdram_fifo_ctrl.v
+    Info : Found entity 1: sdram_fifo_ctrl
+Warning : Verilog HDL Implicit Net warning at ov5640_hdmi_top.v(90): created implicit net for "locked"
+Warning : Verilog HDL Implicit Net warning at ov5640_hdmi_top.v(107): created implicit net for "clk_sdram_rd"
+Warning : Verilog HDL Parameter Declaration warning at i2c_ctrl.v(28): Parameter Declaration in module "i2c_ctrl" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List
+Warning : Verilog HDL Parameter Declaration warning at i2c_ctrl.v(30): Parameter Declaration in module "i2c_ctrl" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List
+Warning : Verilog HDL Parameter Declaration warning at i2c_ctrl.v(47): Parameter Declaration in module "i2c_ctrl" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List
+Info : Elaborating entity "ov5640_hdmi_top" for the top level hierarchy
+Info : Elaborating entity "clk_pll_1" for hierarchy "clk_pll_1:clk_gen_inst"
+Info : Elaborating entity "altpll" for hierarchy "clk_pll_1:clk_gen_inst|altpll:altpll_component"
+Warning : Variable or input pin "configupdate" is defined but never used.
+Info : Elaborated megafunction instantiation "clk_pll_1:clk_gen_inst|altpll:altpll_component"
+Info : Instantiated megafunction "clk_pll_1:clk_gen_inst|altpll:altpll_component" with the following parameter:
+    Info : Parameter "clk0_divide_by" = "14"
+    Info : Parameter "clk0_duty_cycle" = "50"
+    Info : Parameter "clk0_multiply_by" = "28"
+    Info : Parameter "clk0_phase_shift" = "0"
+    Info : Parameter "clk1_divide_by" = "14"
+    Info : Parameter "clk1_duty_cycle" = "50"
+    Info : Parameter "clk1_multiply_by" = "28"
+    Info : Parameter "clk1_phase_shift" = "0"
+    Info : Parameter "clk2_divide_by" = "56"
+    Info : Parameter "clk2_duty_cycle" = "50"
+    Info : Parameter "clk2_multiply_by" = "28"
+    Info : Parameter "clk2_phase_shift" = "10000"
+    Info : Parameter "clk3_divide_by" = "56"
+    Info : Parameter "clk3_duty_cycle" = "50"
+    Info : Parameter "clk3_multiply_by" = "28"
+    Info : Parameter "clk3_phase_shift" = "30000"
+    Info : Parameter "clk5_divide_by" = "28"
+    Info : Parameter "clk5_duty_cycle" = "50"
+    Info : Parameter "clk5_multiply_by" = "28"
+    Info : Parameter "clk5_phase_shift" = "0"
+    Info : Parameter "inclk0_input_frequency" = "20000"
+    Info : Parameter "operation_mode" = "NO_COMPENSATION"
+    Info : Parameter "port_pllena" = "PORT_UNUSED"
+    Info : Parameter "port_pfdena" = "PORT_UNUSED"
+    Info : Parameter "port_areset" = "PORT_USED"
+    Info : Parameter "port_locked" = "PORT_USED"
+    Info : Parameter "invalid_lock_multiplier" = "5"
+    Info : Parameter "valid_lock_multiplier" = "1"
+    Info : Parameter "port_clk0" = "PORT_USED"
+    Info : Parameter "port_clk1" = "PORT_USED"
+    Info : Parameter "port_clk2" = "PORT_USED"
+    Info : Parameter "port_clk3" = "PORT_USED"
+    Info : Parameter "port_clk4" = "PORT_UNUSED"
+    Info : Parameter "port_clk5" = "PORT_USED"
+    Info : Parameter "port_extclk0" = "PORT_UNUSED"
+    Info : Parameter "intended_device_family" = "eHiChip6"
+    Info : Parameter "lpm_type" = "altpll"
+    Info : Parameter "pll_type" = "Enhanced"
+    Info : Parameter "port_activeclock" = "PORT_UNUSED"
+    Info : Parameter "port_clkbad0" = "PORT_UNUSED"
+    Info : Parameter "port_clkbad1" = "PORT_UNUSED"
+    Info : Parameter "port_clkloss" = "PORT_UNUSED"
+    Info : Parameter "port_clkswitch" = "PORT_UNUSED"
+    Info : Parameter "port_fbin" = "PORT_UNUSED"
+    Info : Parameter "port_inclk0" = "PORT_USED"
+    Info : Parameter "port_inclk1" = "PORT_UNUSED"
+    Info : Parameter "port_phasecounterselect" = "PORT_UNUSED"
+    Info : Parameter "port_phasedone" = "PORT_UNUSED"
+    Info : Parameter "port_phasestep" = "PORT_UNUSED"
+    Info : Parameter "port_phaseupdown" = "PORT_UNUSED"
+    Info : Parameter "port_scanaclr" = "PORT_UNUSED"
+    Info : Parameter "port_scanclk" = "PORT_UNUSED"
+    Info : Parameter "port_scanclkena" = "PORT_UNUSED"
+    Info : Parameter "port_scandata" = "PORT_UNUSED"
+    Info : Parameter "port_scandataout" = "PORT_UNUSED"
+    Info : Parameter "port_scandone" = "PORT_UNUSED"
+    Info : Parameter "port_scanread" = "PORT_UNUSED"
+    Info : Parameter "port_scanwrite" = "PORT_UNUSED"
+    Info : Parameter "port_clkena0" = "PORT_UNUSED"
+    Info : Parameter "port_clkena1" = "PORT_UNUSED"
+    Info : Parameter "port_clkena2" = "PORT_UNUSED"
+    Info : Parameter "port_clkena3" = "PORT_UNUSED"
+    Info : Parameter "port_clkena4" = "PORT_UNUSED"
+    Info : Parameter "port_clkena5" = "PORT_UNUSED"
+    Info : Parameter "port_extclk1" = "PORT_UNUSED"
+    Info : Parameter "port_extclk2" = "PORT_UNUSED"
+    Info : Parameter "port_extclk3" = "PORT_UNUSED"
+Info : Elaborating entity "clk_pll_2" for hierarchy "clk_pll_2:clk_gen_inst2"
+Info : Elaborating entity "altpll" for hierarchy "clk_pll_2:clk_gen_inst2|altpll:altpll_component"
+Warning : Variable or input pin "configupdate" is defined but never used.
+Info : Elaborated megafunction instantiation "clk_pll_2:clk_gen_inst2|altpll:altpll_component"
+Info : Instantiated megafunction "clk_pll_2:clk_gen_inst2|altpll:altpll_component" with the following parameter:
+    Info : Parameter "clk0_divide_by" = "48"
+    Info : Parameter "clk0_duty_cycle" = "50"
+    Info : Parameter "clk0_multiply_by" = "24"
+    Info : Parameter "clk0_phase_shift" = "0"
+    Info : Parameter "clk1_divide_by" = "50"
+    Info : Parameter "clk1_duty_cycle" = "50"
+    Info : Parameter "clk1_multiply_by" = "24"
+    Info : Parameter "clk1_phase_shift" = "0"
+    Info : Parameter "clk5_divide_by" = "24"
+    Info : Parameter "clk5_duty_cycle" = "50"
+    Info : Parameter "clk5_multiply_by" = "24"
+    Info : Parameter "clk5_phase_shift" = "0"
+    Info : Parameter "inclk0_input_frequency" = "20000"
+    Info : Parameter "operation_mode" = "NO_COMPENSATION"
+    Info : Parameter "port_pllena" = "PORT_UNUSED"
+    Info : Parameter "port_pfdena" = "PORT_UNUSED"
+    Info : Parameter "port_areset" = "PORT_USED"
+    Info : Parameter "port_locked" = "PORT_USED"
+    Info : Parameter "invalid_lock_multiplier" = "5"
+    Info : Parameter "valid_lock_multiplier" = "1"
+    Info : Parameter "port_clk0" = "PORT_USED"
+    Info : Parameter "port_clk1" = "PORT_USED"
+    Info : Parameter "port_clk2" = "PORT_UNUSED"
+    Info : Parameter "port_clk3" = "PORT_UNUSED"
+    Info : Parameter "port_clk4" = "PORT_UNUSED"
+    Info : Parameter "port_clk5" = "PORT_USED"
+    Info : Parameter "port_extclk0" = "PORT_UNUSED"
+    Info : Parameter "intended_device_family" = "eHiChip6"
+    Info : Parameter "lpm_type" = "altpll"
+    Info : Parameter "pll_type" = "Enhanced"
+    Info : Parameter "port_activeclock" = "PORT_UNUSED"
+    Info : Parameter "port_clkbad0" = "PORT_UNUSED"
+    Info : Parameter "port_clkbad1" = "PORT_UNUSED"
+    Info : Parameter "port_clkloss" = "PORT_UNUSED"
+    Info : Parameter "port_clkswitch" = "PORT_UNUSED"
+    Info : Parameter "port_fbin" = "PORT_UNUSED"
+    Info : Parameter "port_inclk0" = "PORT_USED"
+    Info : Parameter "port_inclk1" = "PORT_UNUSED"
+    Info : Parameter "port_phasecounterselect" = "PORT_UNUSED"
+    Info : Parameter "port_phasedone" = "PORT_UNUSED"
+    Info : Parameter "port_phasestep" = "PORT_UNUSED"
+    Info : Parameter "port_phaseupdown" = "PORT_UNUSED"
+    Info : Parameter "port_scanaclr" = "PORT_UNUSED"
+    Info : Parameter "port_scanclk" = "PORT_UNUSED"
+    Info : Parameter "port_scanclkena" = "PORT_UNUSED"
+    Info : Parameter "port_scandata" = "PORT_UNUSED"
+    Info : Parameter "port_scandataout" = "PORT_UNUSED"
+    Info : Parameter "port_scandone" = "PORT_UNUSED"
+    Info : Parameter "port_scanread" = "PORT_UNUSED"
+    Info : Parameter "port_scanwrite" = "PORT_UNUSED"
+    Info : Parameter "port_clkena0" = "PORT_UNUSED"
+    Info : Parameter "port_clkena1" = "PORT_UNUSED"
+    Info : Parameter "port_clkena2" = "PORT_UNUSED"
+    Info : Parameter "port_clkena3" = "PORT_UNUSED"
+    Info : Parameter "port_clkena4" = "PORT_UNUSED"
+    Info : Parameter "port_clkena5" = "PORT_UNUSED"
+    Info : Parameter "port_extclk1" = "PORT_UNUSED"
+    Info : Parameter "port_extclk2" = "PORT_UNUSED"
+    Info : Parameter "port_extclk3" = "PORT_UNUSED"
+Info : Elaborating entity "sil9134_dri" for hierarchy "sil9134_dri:inst_sil9134_dri"
+Info : Elaborating entity "i2c_dri" for hierarchy "sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri"
+Warning : Verilog HDL assignment warning at i2c_dri.v(70): truncated value with size 27 to match size of target (9)
+Info : Elaborating entity "i2c_sil9134_hdmi_cfg" for hierarchy "sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg"
+Warning : Verilog HDL assignment warning at i2c_sil9134_hdmi_cfg.v(35): truncated value with size 13 to match size of target (10)
+Info : Elaborating entity "ov5640_top" for hierarchy "ov5640_top:ov5640_top_inst"
+Info : Elaborating entity "i2c_ctrl" for hierarchy "ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst"
+Info : Verilog HDL Case Statement information at i2c_ctrl.v(213): all case item expressions in this case statement are onehot
+Warning : Verilog HDL Always Construct warning at i2c_ctrl.v(213): inferring latch(es) for variable "ack", which holds its previous value in one or more paths through the always construct
+Warning : Verilog HDL or VHDL warning at the i2c_ctrl.v(274): index expression is not wide enough to address all of the elements in the array
+Warning : Verilog HDL Always Construct warning at i2c_ctrl.v(251): inferring latch(es) for variable "i2c_sda_reg", which holds its previous value in one or more paths through the always construct
+Warning : Verilog HDL Always Construct warning at i2c_ctrl.v(251): inferring latch(es) for variable "rd_data_reg", which holds its previous value in one or more paths through the always construct
+Info : Inferred latch for "rd_data_reg[0]" at i2c_ctrl.v(251)
+Info : Inferred latch for "rd_data_reg[1]" at i2c_ctrl.v(251)
+Info : Inferred latch for "rd_data_reg[2]" at i2c_ctrl.v(251)
+Info : Inferred latch for "rd_data_reg[3]" at i2c_ctrl.v(251)
+Info : Inferred latch for "rd_data_reg[4]" at i2c_ctrl.v(251)
+Info : Inferred latch for "rd_data_reg[5]" at i2c_ctrl.v(251)
+Info : Inferred latch for "rd_data_reg[6]" at i2c_ctrl.v(251)
+Info : Inferred latch for "rd_data_reg[7]" at i2c_ctrl.v(251)
+Info : Inferred latch for "i2c_sda_reg" at i2c_ctrl.v(251)
+Info : Inferred latch for "ack" at i2c_ctrl.v(213)
+Info : Elaborating entity "ov5640_cfg" for hierarchy "ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst"
+Info : Elaborating entity "DVP_Capture" for hierarchy "ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture"
+Info : Elaborating entity "sdram_top" for hierarchy "sdram_top:sdram1_top_inst"
+Info : Elaborating entity "sdram_fifo_ctrl" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl"
+Info : Elaborating entity "wrFIFO" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo"
+Info : Elaborating entity "dcfifo" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo"
+Info : Instantiated megafunction "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo" with the following parameter:
+    Info : Parameter "add_ram_output_register" = "ON"
+    Info : Parameter "clocks_are_synchronized" = "FALSE"
+    Info : Parameter "intended_device_family" = "eHiChip6"
+    Info : Parameter "lpm_hint" = "RAM_BLOCK_TYPE=M4K"
+    Info : Parameter "lpm_numwords" = "2048"
+    Info : Parameter "lpm_showahead" = "OFF"
+    Info : Parameter "lpm_type" = "dcfifo"
+    Info : Parameter "lpm_width" = "16"
+    Info : Parameter "lpm_widthu" = "11"
+    Info : Parameter "overflow_checking" = "ON"
+    Info : Parameter "underflow_checking" = "ON"
+    Info : Parameter "use_eab" = "ON"
+Info : Found 1 design units, including 1 entities, in source file db/dcfifo_rll1.tdf
+    Info : Found entity 1: dcfifo_rll1
+Info : Elaborating entity "dcfifo_rll1" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated"
+Info : Found 1 design units, including 1 entities, in source file db/a_gray2bin_07b.tdf
+    Info : Found entity 1: a_gray2bin_07b
+Info : Elaborating entity "a_gray2bin_07b" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_gray2bin_07b:read_side_gray_converter"
+Info : Found 1 design units, including 1 entities, in source file db/a_graycounter_u26.tdf
+    Info : Found entity 1: a_graycounter_u26
+Info : Elaborating entity "a_graycounter_u26" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g"
+Info : Found 1 design units, including 1 entities, in source file db/a_graycounter_v26.tdf
+    Info : Found entity 1: a_graycounter_v26
+Info : Elaborating entity "a_graycounter_v26" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write"
+Info : Found 1 design units, including 1 entities, in source file db/altsyncram_u861.tdf
+    Info : Found entity 1: altsyncram_u861
+Info : Elaborating entity "altsyncram_u861" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram"
+Info : Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_1e8.tdf
+    Info : Found entity 1: alt_synch_pipe_1e8
+Info : Elaborating entity "alt_synch_pipe_1e8" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers"
+Info : Found 1 design units, including 1 entities, in source file db/dffpipe_re9.tdf
+    Info : Found entity 1: dffpipe_re9
+Info : Elaborating entity "dffpipe_re9" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18"
+Info : Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_2e8.tdf
+    Info : Found entity 1: alt_synch_pipe_2e8
+Info : Elaborating entity "alt_synch_pipe_2e8" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers"
+Info : Found 1 design units, including 1 entities, in source file db/dffpipe_se9.tdf
+    Info : Found entity 1: dffpipe_se9
+Info : Elaborating entity "dffpipe_se9" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22"
+Info : Found 1 design units, including 1 entities, in source file db/add_sub_m0c.tdf
+    Info : Found entity 1: add_sub_m0c
+Info : Elaborating entity "add_sub_m0c" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|add_sub_m0c:rdusedw_subtractor"
+Info : Found 1 design units, including 1 entities, in source file db/cmpr_ms5.tdf
+    Info : Found entity 1: cmpr_ms5
+Info : Elaborating entity "cmpr_ms5" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer"
+Info : Found 1 design units, including 1 entities, in source file db/cmpr_ti8.tdf
+    Info : Found entity 1: cmpr_ti8
+Info : Elaborating entity "cmpr_ti8" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ti8:wrempty_comparison"
+Info : Found 1 design units, including 1 entities, in source file db/cntr_cva.tdf
+    Info : Found entity 1: cntr_cva
+Info : Elaborating entity "cntr_cva" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b"
+Info : Elaborating entity "scfifo" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Instantiated megafunction "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel" with the following parameter:
+    Info : Parameter "ADD_RAM_OUTPUT_REGISTER" = "ON"
+    Info : Parameter "LPM_NUMWORDS" = "3"
+    Info : Parameter "LPM_SHOWAHEAD" = "OFF"
+    Info : Parameter "LPM_WIDTH" = "16"
+    Info : Parameter "LPM_WIDTHU" = "2"
+    Info : Parameter "OVERFLOW_CHECKING" = "ON"
+    Info : Parameter "UNDERFLOW_CHECKING" = "ON"
+    Info : Parameter "USE_EAB" = "OFF"
+Info : Elaborating entity "a_fffifo" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo", which is child of megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Elaborating entity "lpm_ff" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][1]"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][1]", which is child of megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Elaborating entity "lpm_mux" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:row_data_out_mux[0]"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:row_data_out_mux[0]", which is child of megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Found 1 design units, including 1 entities, in source file db/mux_rhc.tdf
+    Info : Found entity 1: mux_rhc
+Info : Elaborating entity "mux_rhc" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:row_data_out_mux[0]|mux_rhc:auto_generated"
+Info : Elaborating entity "lpm_counter" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr", which is child of megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Found 1 design units, including 1 entities, in source file db/cntr_qve.tdf
+    Info : Found entity 1: cntr_qve
+Info : Elaborating entity "cntr_qve" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr|cntr_qve:auto_generated"
+Info : Elaborating entity "a_fefifo" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state", which is child of megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Elaborating entity "lpm_compare" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_empty_compare"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_empty_compare", which is child of megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Found 1 design units, including 1 entities, in source file db/cmpr_04g.tdf
+    Info : Found entity 1: cmpr_04g
+Info : Elaborating entity "cmpr_04g" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_empty_compare|cmpr_04g:auto_generated"
+Info : Elaborating entity "lpm_compare" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_full_compare"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_full_compare", which is child of megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel"
+Info : Elaborating entity "rdFIFO" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo"
+Info : Elaborating entity "dcfifo" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo"
+Info : Elaborated megafunction instantiation "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo"
+Info : Instantiated megafunction "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo" with the following parameter:
+    Info : Parameter "add_ram_output_register" = "ON"
+    Info : Parameter "clocks_are_synchronized" = "FALSE"
+    Info : Parameter "intended_device_family" = "eHiChip6"
+    Info : Parameter "lpm_hint" = "RAM_BLOCK_TYPE=M4K"
+    Info : Parameter "lpm_numwords" = "2048"
+    Info : Parameter "lpm_showahead" = "OFF"
+    Info : Parameter "lpm_type" = "dcfifo"
+    Info : Parameter "lpm_width" = "16"
+    Info : Parameter "lpm_widthu" = "11"
+    Info : Parameter "overflow_checking" = "ON"
+    Info : Parameter "underflow_checking" = "ON"
+    Info : Parameter "use_eab" = "ON"
+Info : Found 1 design units, including 1 entities, in source file db/dcfifo_eml1.tdf
+    Info : Found entity 1: dcfifo_eml1
+Info : Elaborating entity "dcfifo_eml1" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated"
+Info : Found 1 design units, including 1 entities, in source file db/a_graycounter_036.tdf
+    Info : Found entity 1: a_graycounter_036
+Info : Elaborating entity "a_graycounter_036" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write"
+Info : Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_3e8.tdf
+    Info : Found entity 1: alt_synch_pipe_3e8
+Info : Elaborating entity "alt_synch_pipe_3e8" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers"
+Info : Found 1 design units, including 1 entities, in source file db/dffpipe_te9.tdf
+    Info : Found entity 1: dffpipe_te9
+Info : Elaborating entity "dffpipe_te9" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14"
+Info : Found 1 design units, including 1 entities, in source file db/alt_synch_pipe_4e8.tdf
+    Info : Found entity 1: alt_synch_pipe_4e8
+Info : Elaborating entity "alt_synch_pipe_4e8" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers"
+Info : Found 1 design units, including 1 entities, in source file db/dffpipe_ue9.tdf
+    Info : Found entity 1: dffpipe_ue9
+Info : Elaborating entity "dffpipe_ue9" for hierarchy "sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18"
+Info : Elaborating entity "sdram_controller" for hierarchy "sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller"
+Info : Elaborating entity "sdram_ctrl" for hierarchy "sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl"
+Info : Elaborating entity "sdram_cmd" for hierarchy "sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd"
+Info : Elaborating entity "sdram_data" for hierarchy "sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data"
+Info : Elaborating entity "video_driver" for hierarchy "video_driver:video_driver_inst"
+Warning : Verilog HDL assignment warning at video_driver.v(53): truncated value with size 32 to match size of target (11)
+Warning : Verilog HDL assignment warning at video_driver.v(79): truncated value with size 32 to match size of target (11)
+Warning : Verilog HDL assignment warning at video_driver.v(87): truncated value with size 32 to match size of target (11)
+Warning : LATCH primitive "ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_sda_reg" is permanently enabled
+Warning : LATCH primitive "ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_sda_reg" is permanently enabled
+Info : Limiting M512 RAM block usage to 0 M512 RAM block(s) for the Top
+Info : Limiting MRAM/M144K RAM block usage to 0 MRAM/M144K RAM block(s) for the Top
+Info : Limiting M512 RAM block usage to 0 M512 RAM block(s) for the Top
+Info : Limiting MRAM/M144K RAM block usage to 0 MRAM/M144K RAM block(s) for the Top
+Warning : 4 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning : Output pins are stuck at VCC or GND
+    Warning : Pin "ov5640_rst_n" is stuck at VCC
+    Warning : Pin "ov5640_pwdn" is stuck at GND
+Info : Registers with preset signals will power-up high
+Info : 37 registers lost all their fanouts during netlist optimizations.
+Info : Generated suppressed messages file D:/github_example/ov5640_hdmi_640x480/ov5640_hdmi_640x480.runs/synth_1/ov5640_hdmi_640x480.map.smsg
+Info : Generating hard_block partition "hard_block:auto_generated_inst"
+    Info : Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
+Warning : Output port clk1 of PLL "clk_pll_2:clk_gen_inst2|altpll:altpll_component|pll" feeds an output pin via global clocks -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance
+Warning : Output port clk1 of PLL "clk_pll_1:clk_gen_inst|altpll:altpll_component|pll" feeds an output pin via global clocks -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance
+Info : Implemented 1686 device resources after synthesis - the final resource count might be different
+    Info : Implemented 13 input pins
+    Info : Implemented 54 output pins
+    Info : Implemented 18 bidirectional pins
+    Info : Implemented 1567 logic cells
+    Info : Implemented 32 RAM segments
+    Info : Implemented 2 PLLs
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 4629 megabytes
+    Info: Processing ended: Fri Jul 31 10:47:25 2026
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:06
+
+Info: *******************************************************************
+Info: Running eLinx 64-Bit Compiler Database Interface
+    Info: Version 3.0 
+    Info: Copyright (C) 2006-2024 eHiWay Corporation. All rights reserved.
+    Info: Your use of eHiWay Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the eHiWay Program License 
+    Info: Subscription Agreement, eHiWay MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by eHiWay and sold by 
+    Info: eHiWay or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Fri Jul 31 10:47:25 2026
+Info: Command: ehiway_cdb ov5640_hdmi_640x480 -c ov5640_hdmi_640x480 --vqm=D:/github_example/ov5640_hdmi_640x480/ov5640_hdmi_640x480.runs/synth_1/ov5640_hdmi_640x480.vqm
+Info : Generated Verilog eLinx Mapping File using post-synthesis netlist
+Info : Generated Verilog eLinx Mapping File D:/github_example/ov5640_hdmi_640x480/ov5640_hdmi_640x480.runs/synth_1/ov5640_hdmi_640x480.vqm
+Info : Found Compiler Database Interface (ehiway_cdb) options that can modify the eLinx Settings File (.qsf) -- you must specify the --write_settings_files option to update the .qsf
+Info: eLinx 64-Bit Compiler Database Interface was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4580 megabytes
+    Info: Processing ended: Fri Jul 31 10:47:26 2026
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+

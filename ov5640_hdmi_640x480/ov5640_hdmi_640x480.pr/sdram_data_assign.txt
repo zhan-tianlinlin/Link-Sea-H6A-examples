@@ -1,0 +1,2 @@
+sdram_data,sdram_out_en,sdram_din_r
+sdram_data_out,sdram_dout_r,!rst_n,!rst_n,!rst_n

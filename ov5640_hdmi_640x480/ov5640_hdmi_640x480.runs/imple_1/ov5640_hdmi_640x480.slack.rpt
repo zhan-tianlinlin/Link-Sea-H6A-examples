@@ -1,0 +1,12 @@
+Type	Slack(ns)	Actual Fmax(MHz)
+clock name:\clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk0 Fmax:116.158 sync_slack:1.391 async_slack:N/A
+clock name:\clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk0 clock name:ov5640_pclk sync_slack:N/A async_slack:3.833
+clock name:\clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk2 Fmax:140.825 sync_slack:32.899 async_slack:N/A
+clock name:\clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk3 clock name:\clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk2 sync_slack:14.887 async_slack:N/A
+clock name:\clk_pll_1:clk_gen_inst|altpll:altpll_component|_clk3 Fmax:207.469 sync_slack:35.180 async_slack:N/A
+clock name:\clk_pll_2:clk_gen_inst2|altpll:altpll_component|_clk0 Fmax:328.084 sync_slack:36.952 async_slack:N/A
+clock name:ov5640_pclk Fmax:125.188 sync_slack:992.012 async_slack:N/A
+clock name:\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk clock name:ov5640_pclk sync_slack:N/A async_slack:485.973
+clock name:\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk Fmax:251.004 sync_slack:996.016 async_slack:N/A
+clock name:\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|dri_clk Fmax:168.464 sync_slack:994.064 async_slack:N/A
+all_path_min_slack:1.391  all_route_min_slack:1.391

@@ -1,0 +1,310 @@
+#blk_name	x	y	z	index
+stratix_clb0	140	19	0	#0
+stratix_clb1	132	20	0	#1
+stratix_clb2	132	19	0	#2
+stratix_clb3	137	16	0	#3
+stratix_clb4	25	27	0	#4
+stratix_clb5	25	26	0	#5
+stratix_clb6	27	20	0	#6
+stratix_clb7	21	20	0	#7
+stratix_clb8	21	19	0	#8
+stratix_clb9	26	22	0	#9
+stratix_clb10	26	21	0	#10
+stratix_clb11	21	26	0	#11
+stratix_clb12	21	25	0	#12
+stratix_mem13	22	16	0	#13
+stratix_mem14	22	21	0	#14
+stratix_mem15	22	22	0	#15
+stratix_mem16	22	23	0	#16
+stratix_mem17	22	20	0	#17
+stratix_mem18	22	19	0	#18
+stratix_mem19	22	17	0	#19
+stratix_mem20	22	18	0	#20
+stratix_clb21	29	18	0	#21
+stratix_clb22	29	17	0	#22
+stratix_clb23	28	19	0	#23
+stratix_clb24	28	18	0	#24
+stratix_clb25	31	26	0	#25
+stratix_mem26	22	13	0	#26
+stratix_mem27	22	9	0	#27
+stratix_mem28	22	11	0	#28
+stratix_mem29	22	15	0	#29
+stratix_mem30	22	8	0	#30
+stratix_mem31	22	10	0	#31
+stratix_mem32	22	14	0	#32
+stratix_mem33	22	12	0	#33
+stratix_clb34	26	20	0	#34
+stratix_clb35	24	16	0	#35
+stratix_clb36	24	15	0	#36
+stratix_clb37	26	17	0	#37
+stratix_clb38	25	17	0	#38
+stratix_clb39	25	16	0	#39
+stratix_clb40	21	11	0	#40
+stratix_clb41	136	13	0	#41
+stratix_clb42	140	14	0	#42
+stratix_clb43	137	12	0	#43
+stratix_clb44	52	19	0	#44
+stratix_clb45	52	18	0	#45
+stratix_clb46	53	21	0	#46
+stratix_clb47	53	20	0	#47
+stratix_ppll48	166	4	0	#48
+stratix_ppll49	166	5	0	#49
+stratix_clb50	32	13	0	#50
+stratix_clb51	33	13	0	#51
+stratix_clb52	31	13	0	#52
+stratix_clb53	33	14	0	#53
+stratix_clb54	140	13	0	#54
+stratix_clb55	139	15	0	#55
+stratix_clb56	139	16	0	#56
+stratix_clb57	139	18	0	#57
+stratix_clb58	135	14	0	#58
+stratix_clb59	132	13	0	#59
+stratix_clb60	139	17	0	#60
+stratix_clb61	140	15	0	#61
+stratix_clb62	140	17	0	#62
+stratix_clb63	136	15	0	#63
+stratix_clb64	132	11	0	#64
+stratix_clb65	134	12	0	#65
+stratix_clb66	129	11	0	#66
+stratix_clb67	129	12	0	#67
+stratix_clb68	132	12	0	#68
+stratix_clb69	129	13	0	#69
+stratix_clb70	135	15	0	#70
+stratix_clb71	133	12	0	#71
+stratix_clb72	135	12	0	#72
+stratix_clb73	133	14	0	#73
+stratix_clb74	133	11	0	#74
+stratix_clb75	134	11	0	#75
+stratix_clb76	134	13	0	#76
+stratix_clb77	134	14	0	#77
+stratix_clb78	133	13	0	#78
+stratix_clb79	134	16	0	#79
+stratix_clb80	137	19	0	#80
+stratix_clb81	141	17	0	#81
+stratix_clb82	140	18	0	#82
+stratix_clb83	129	14	0	#83
+stratix_clb84	139	14	0	#84
+stratix_clb85	141	16	0	#85
+stratix_clb86	139	19	0	#86
+stratix_clb87	135	17	0	#87
+stratix_clb88	133	15	0	#88
+stratix_clb89	137	17	0	#89
+stratix_clb90	134	17	0	#90
+stratix_clb91	134	19	0	#91
+stratix_clb92	134	18	0	#92
+stratix_clb93	136	17	0	#93
+stratix_clb94	133	17	0	#94
+stratix_clb95	136	18	0	#95
+stratix_clb96	129	17	0	#96
+stratix_clb97	132	16	0	#97
+stratix_clb98	132	15	0	#98
+stratix_clb99	132	17	0	#99
+stratix_clb100	133	19	0	#100
+stratix_clb101	137	18	0	#101
+stratix_clb102	136	19	0	#102
+stratix_clb103	133	18	0	#103
+stratix_clb104	133	16	0	#104
+stratix_clb105	136	16	0	#105
+stratix_clb106	132	18	0	#106
+stratix_clb107	129	15	0	#107
+stratix_clb108	25	22	0	#108
+stratix_clb109	25	24	0	#109
+stratix_clb110	21	21	0	#110
+stratix_clb111	25	19	0	#111
+stratix_clb112	24	24	0	#112
+stratix_clb113	24	18	0	#113
+stratix_clb114	24	23	0	#114
+stratix_clb115	25	28	0	#115
+stratix_clb116	21	33	0	#116
+stratix_clb117	25	21	0	#117
+stratix_clb118	25	18	0	#118
+stratix_clb119	24	20	0	#119
+stratix_clb120	24	17	0	#120
+stratix_clb121	26	18	0	#121
+stratix_clb122	25	20	0	#122
+stratix_clb123	26	26	0	#123
+stratix_clb124	21	22	0	#124
+stratix_clb125	26	19	0	#125
+stratix_clb126	21	18	0	#126
+stratix_clb127	21	16	0	#127
+stratix_clb128	25	14	0	#128
+stratix_clb129	24	21	0	#129
+stratix_clb130	21	23	0	#130
+stratix_clb131	25	23	0	#131
+stratix_clb132	21	24	0	#132
+stratix_clb133	24	27	0	#133
+stratix_clb134	26	23	0	#134
+stratix_clb135	29	24	0	#135
+stratix_clb136	31	24	0	#136
+stratix_clb137	31	16	0	#137
+stratix_clb138	31	22	0	#138
+stratix_clb139	27	19	0	#139
+stratix_clb140	31	21	0	#140
+stratix_clb141	27	17	0	#141
+stratix_clb142	29	20	0	#142
+stratix_clb143	29	22	0	#143
+stratix_clb144	27	21	0	#144
+stratix_clb145	29	19	0	#145
+stratix_clb146	27	24	0	#146
+stratix_clb147	27	22	0	#147
+stratix_clb148	28	23	0	#148
+stratix_clb149	27	23	0	#149
+stratix_clb150	28	25	0	#150
+stratix_clb151	28	24	0	#151
+stratix_clb152	28	17	0	#152
+stratix_clb153	28	21	0	#153
+stratix_clb154	29	21	0	#154
+stratix_clb155	27	25	0	#155
+stratix_clb156	28	26	0	#156
+stratix_clb157	29	23	0	#157
+stratix_clb158	28	16	0	#158
+stratix_clb159	26	24	0	#159
+stratix_clb160	29	25	0	#160
+stratix_clb161	28	20	0	#161
+stratix_clb162	27	18	0	#162
+stratix_clb163	31	19	0	#163
+stratix_clb164	31	23	0	#164
+stratix_clb165	31	18	0	#165
+stratix_clb166	29	16	0	#166
+stratix_clb167	28	22	0	#167
+stratix_clb168	28	27	0	#168
+stratix_clb169	21	15	0	#169
+stratix_clb170	21	13	0	#170
+stratix_clb171	26	14	0	#171
+stratix_clb172	24	11	0	#172
+stratix_clb173	27	13	0	#173
+stratix_clb174	24	13	0	#174
+stratix_clb175	28	15	0	#175
+stratix_clb176	29	15	0	#176
+stratix_clb177	25	11	0	#177
+stratix_clb178	25	13	0	#178
+stratix_clb179	31	17	0	#179
+stratix_clb180	27	12	0	#180
+stratix_clb181	24	14	0	#181
+stratix_clb182	25	15	0	#182
+stratix_clb183	27	15	0	#183
+stratix_clb184	26	15	0	#184
+stratix_clb185	27	14	0	#185
+stratix_clb186	26	11	0	#186
+stratix_clb187	25	12	0	#187
+stratix_clb188	28	13	0	#188
+stratix_clb189	26	12	0	#189
+stratix_clb190	29	12	0	#190
+stratix_clb191	21	12	0	#191
+stratix_clb192	29	13	0	#192
+stratix_clb193	24	19	0	#193
+stratix_clb194	28	12	0	#194
+stratix_clb195	26	13	0	#195
+stratix_clb196	21	14	0	#196
+stratix_clb197	24	12	0	#197
+stratix_clb198	29	14	0	#198
+stratix_clb199	28	14	0	#199
+stratix_clb200	26	16	0	#200
+stratix_clb201	141	12	0	#201
+stratix_clb202	139	13	0	#202
+stratix_clb203	141	11	0	#203
+stratix_clb204	140	12	0	#204
+stratix_clb205	139	12	0	#205
+stratix_clb206	139	11	0	#206
+stratix_clb207	140	11	0	#207
+stratix_clb208	141	13	0	#208
+stratix_clb209	137	11	0	#209
+stratix_clb210	136	14	0	#210
+stratix_clb211	137	13	0	#211
+stratix_clb212	136	11	0	#212
+stratix_clb213	136	12	0	#213
+stratix_clb214	141	15	0	#214
+stratix_clb215	52	21	0	#215
+stratix_clb216	54	21	0	#216
+stratix_clb217	53	19	0	#217
+stratix_clb218	54	19	0	#218
+stratix_clb219	34	23	0	#219
+stratix_clb220	32	16	0	#220
+stratix_clb221	32	18	0	#221
+stratix_clb222	143	12	0	#222
+stratix_clb223	142	11	0	#223
+sys_rst_n	input	B18		stratix_pad224	163	101	6	#224
+sys_clk	input	AB12		stratix_pad225	83	0	0	#225
+sdram1addr[9]	output	AB2		stratix_pad226	1	0	6	#226
+sdram1addr[8]	output	Y2		stratix_pad227	0	1	0	#227
+sdram1addr[7]	output	Y1		stratix_pad228	0	1	4	#228
+sdram1addr[6]	output	V1		stratix_pad229	0	28	0	#229
+sdram1addr[5]	output	V3		stratix_pad230	0	14	2	#230
+sdram1addr[4]	output	T6		stratix_pad231	0	17	0	#231
+sdram1addr[3]	output	U3		stratix_pad232	0	30	2	#232
+sdram1addr[2]	output	T4		stratix_pad233	0	26	2	#233
+sdram1addr[1]	output	T3		stratix_pad234	0	25	0	#234
+sdram1addr[12]	output	AA4		stratix_pad235	0	12	4	#235
+sdram1addr[11]	output	AB3		stratix_pad236	0	4	4	#236
+sdram1addr[10]	output	R3		stratix_pad237	0	33	4	#237
+sdram1addr[0]	output	R4		stratix_pad238	0	18	2	#238
+sdram1_we_n	output	P1		stratix_pad239	0	33	0	#239
+sdram1_ras_n	output	R1		stratix_pad240	0	32	2	#240
+sdram1_dq[9]	bidir	W3		stratix_pad241	0	7	2	#241
+sdram1_dq[8]	bidir	U4		stratix_pad242	0	15	4	#242
+sdram1_dq[7]	bidir	P5		stratix_pad243	0	19	0	#243
+sdram1_dq[6]	bidir	P7		stratix_pad244	0	21	2	#244
+sdram1_dq[5]	bidir	T7		stratix_pad245	0	8	2	#245
+sdram1_dq[4]	bidir	U8		stratix_pad246	0	9	4	#246
+sdram1_dq[3]	bidir	R8		stratix_pad247	0	15	0	#247
+sdram1_dq[2]	bidir	R7		stratix_pad248	0	9	0	#248
+sdram1_dq[1]	bidir	T8		stratix_pad249	0	10	2	#249
+sdram1_dq[15]	bidir	AA2		stratix_pad250	1	0	0	#250
+sdram1_dq[14]	bidir	V5		stratix_pad251	0	12	0	#251
+sdram1_dq[13]	bidir	AB4		stratix_pad252	0	11	2	#252
+sdram1_dq[12]	bidir	Y4		stratix_pad253	0	2	2	#253
+sdram1_dq[11]	bidir	Y3		stratix_pad254	0	4	0	#254
+sdram1_dq[10]	bidir	W4		stratix_pad255	0	3	2	#255
+sdram1_dq[0]	bidir	U6		stratix_pad256	0	13	2	#256
+sdram1_cs_n	output	T1		stratix_pad257	0	31	4	#257
+sdram1_clk	output	P3		stratix_pad258	0	49	4	#258
+sdram1_cke	output	N4		stratix_pad259	0	49	0	#259
+sdram1_cas_n	output	P2		stratix_pad260	0	34	2	#260
+sdram1_ba[1]	output	U1		stratix_pad261	0	29	0	#261
+sdram1_ba[0]	output	T2		stratix_pad262	0	31	0	#262
+sccb_sda	bidir	P17		stratix_pad263	163	0	0	#263
+sccb_scl	output	R15		stratix_pad264	159	0	0	#264
+ov5640_xclk	output	L17		stratix_pad265	165	35	4	#265
+ov5640_vsync	input	R16		stratix_pad266	159	0	6	#266
+ov5640_rst_n	output	AB20		stratix_pad267	165	2	4	#267
+ov5640_pwdn	output	V20		stratix_pad268	155	0	6	#268
+ov5640_pclk	input	K17		stratix_pad269	165	35	0	#269
+ov5640_href	input	R19		stratix_pad270	157	0	6	#270
+ov5640_data[7]	input	P19		stratix_pad271	165	2	0	#271
+ov5640_data[6]	input	T18		stratix_pad272	153	0	6	#272
+ov5640_data[5]	input	AB19		stratix_pad273	165	1	2	#273
+ov5640_data[4]	input	Y19		stratix_pad274	161	0	0	#274
+ov5640_data[3]	input	R17		stratix_pad275	157	0	0	#275
+ov5640_data[2]	input	P18		stratix_pad276	163	0	6	#276
+ov5640_data[1]	input	Y20		stratix_pad277	161	0	6	#277
+ov5640_data[0]	input	V19		stratix_pad278	155	0	0	#278
+hdmi_out_vsync	output	B22		stratix_pad279	165	67	0	#279
+hdmi_out_rgb[9]	output	T22		stratix_pad280	165	22	2	#280
+hdmi_out_rgb[8]	output	R22		stratix_pad281	165	23	0	#281
+hdmi_out_rgb[7]	output	P22		stratix_pad282	165	25	4	#282
+hdmi_out_rgb[6]	output	P21		stratix_pad283	165	24	2	#283
+hdmi_out_rgb[5]	output	N22		stratix_pad284	165	26	2	#284
+hdmi_out_rgb[4]	output	M22		stratix_pad285	165	29	4	#285
+hdmi_out_rgb[3]	output	V17		stratix_pad286	143	0	4	#286
+hdmi_out_rgb[2]	output	V18		stratix_pad287	143	0	6	#287
+hdmi_out_rgb[23]	output	AA21		stratix_pad288	165	4	4	#288
+hdmi_out_rgb[22]	output	Y21		stratix_pad289	165	9	0	#289
+hdmi_out_rgb[21]	output	AA22		stratix_pad290	165	4	0	#290
+hdmi_out_rgb[20]	output	W20		stratix_pad291	165	17	2	#291
+hdmi_out_rgb[1]	output	T19		stratix_pad292	3	0	0	#292
+hdmi_out_rgb[19]	output	Y22		stratix_pad293	165	10	2	#293
+hdmi_out_rgb[18]	output	U20		stratix_pad294	165	20	4	#294
+hdmi_out_rgb[17]	output	W22		stratix_pad295	165	18	4	#295
+hdmi_out_rgb[16]	output	V21		stratix_pad296	165	18	0	#296
+hdmi_out_rgb[15]	output	V22		stratix_pad297	165	19	2	#297
+hdmi_out_rgb[14]	output	U22		stratix_pad298	165	20	0	#298
+hdmi_out_rgb[13]	output	K22		stratix_pad299	165	30	2	#299
+hdmi_out_rgb[12]	output	K21		stratix_pad300	165	29	0	#300
+hdmi_out_rgb[11]	output	T20		stratix_pad301	3	0	6	#301
+hdmi_out_rgb[10]	output	T21		stratix_pad302	165	21	2	#302
+hdmi_out_rgb[0]	output	J22		stratix_pad303	165	51	2	#303
+hdmi_out_hsync	output	R20		stratix_pad304	165	23	4	#304
+hdmi_out_de	output	M21		stratix_pad305	165	28	2	#305
+hdmi_out_clk	output	M18		stratix_pad306	165	33	0	#306
+ddc_sda	bidir	AA20		stratix_pad307	165	6	0	#307
+ddc_scl	output	AB21		stratix_pad308	165	7	2	#308

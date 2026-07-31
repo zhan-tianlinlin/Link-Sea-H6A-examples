@@ -1,0 +1,12 @@
+Analysis & Synthesis Status : Successful - Fri Jul 31 10:47:25 2026
+eLinx 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : ov5640_hdmi_640x480
+Top-level Entity Name : ov5640_hdmi_top
+Family : eHiChip6
+Total logic elements : 1,567
+Total pins : 85
+Total virtual pins : 0
+Total memory bits : 65,536
+DSP block 9-bit elements : 0
+Total PLLs : 2
+Total DLLs : 0

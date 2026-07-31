@@ -1,0 +1,73 @@
+--a_graycounter DEVICE_FAMILY="Stratix" WIDTH=11 aclr clk_en clock q
+--VERSION_BEGIN 13.0 cbx_a_gray2bin 2013:06:12:18:03:43:SJ cbx_a_graycounter 2013:06:12:18:03:43:SJ cbx_cycloneii 2013:06:12:18:03:43:SJ cbx_mgl 2013:06:12:18:05:10:SJ cbx_stratix 2013:06:12:18:03:43:SJ cbx_stratixii 2013:06:12:18:03:43:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2013 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+
+--synthesis_resources = lut 15 
+OPTIONS ALTERA_INTERNAL_OPTION = "{-to sub_parity15a0} POWER_UP_LEVEL=HIGH;{-to parity14} POWER_UP_LEVEL=LOW";
+
+SUBDESIGN a_graycounter_v26
+( 
+	aclr	:	input;
+	clk_en	:	input;
+	clock	:	input;
+	q[10..0]	:	output;
+) 
+VARIABLE 
+	counter16a[10..0] : dffeas;
+	parity14 : dffeas
+		WITH (
+			power_up = "low"
+		);
+	sub_parity15a0 : dffeas
+		WITH (
+			power_up = "high"
+		);
+	sub_parity15a1 : dffeas;
+	sub_parity15a2 : dffeas;
+	cnt_en	: NODE;
+	cntr_cout[10..0]	: WIRE;
+	parity_cout	: WIRE;
+	sclr	: NODE;
+	updown	: NODE;
+
+BEGIN 
+	counter16a[].clk = clock;
+	counter16a[].clrn = ( (! aclr), (! aclr), (! aclr), (! aclr), (! aclr), (! aclr), (! aclr), (! aclr), (! aclr), (! aclr), (! aclr));
+	counter16a[].d = ( (counter16a[10].q $ cntr_cout[9..9]), (counter16a[9].q $ (counter16a[8].q & cntr_cout[8..8])), (counter16a[8].q $ (counter16a[7].q & cntr_cout[7..7])), (counter16a[7].q $ (counter16a[6].q & cntr_cout[6..6])), (counter16a[6].q $ (counter16a[5].q & cntr_cout[5..5])), (counter16a[5].q $ (counter16a[4].q & cntr_cout[4..4])), (counter16a[4].q $ (counter16a[3].q & cntr_cout[3..3])), (counter16a[3].q $ (counter16a[2].q & cntr_cout[2..2])), (counter16a[2].q $ (counter16a[1].q & cntr_cout[1..1])), (counter16a[1].q $ (counter16a[0].q & cntr_cout[0..0])), ((cnt_en & (counter16a[0].q $ (! parity_cout))) # ((! cnt_en) & counter16a[0].q)));
+	counter16a[].ena = clk_en;
+	counter16a[].sclr = sclr;
+	parity14.clk = clock;
+	parity14.clrn = (! aclr);
+	parity14.d = ((cnt_en & ((sub_parity15a[0..0].q $ sub_parity15a[1..1].q) $ sub_parity15a[2..2].q)) # ((! cnt_en) & parity14.q));
+	parity14.ena = clk_en;
+	parity14.sclr = sclr;
+	sub_parity15a[2..0].clk = ( clock, clock, clock);
+	sub_parity15a[2..1].clrn = (! aclr);
+	sub_parity15a[2..0].d = ( ((cnt_en & ((counter16a[8..8].q $ counter16a[9..9].q) $ counter16a[10..10].q)) # ((! cnt_en) & sub_parity15a[2].q)), ((cnt_en & (((counter16a[4..4].q $ counter16a[5..5].q) $ counter16a[6..6].q) $ counter16a[7..7].q)) # ((! cnt_en) & sub_parity15a[1].q)), ((cnt_en & (((counter16a[0..0].q $ counter16a[1..1].q) $ counter16a[2..2].q) $ counter16a[3..3].q)) # ((! cnt_en) & sub_parity15a[0].q)));
+	sub_parity15a[2..0].ena = ( clk_en, clk_en, clk_en);
+	sub_parity15a[0].prn = (! aclr);
+	sub_parity15a[2..0].sclr = ( sclr, sclr, sclr);
+	cnt_en = VCC;
+	cntr_cout[] = ( B"0", (cntr_cout[8..8] & (! counter16a[8].q)), (cntr_cout[7..7] & (! counter16a[7].q)), (cntr_cout[6..6] & (! counter16a[6].q)), (cntr_cout[5..5] & (! counter16a[5].q)), (cntr_cout[4..4] & (! counter16a[4].q)), (cntr_cout[3..3] & (! counter16a[3].q)), (cntr_cout[2..2] & (! counter16a[2].q)), (cntr_cout[1..1] & (! counter16a[1].q)), (cntr_cout[0..0] & (! counter16a[0].q)), (cnt_en & parity_cout));
+	parity_cout = ((parity14.q $ (! updown)) & cnt_en);
+	q[] = counter16a[].q;
+	sclr = GND;
+	updown = VCC;
+END;
+--VALID FILE

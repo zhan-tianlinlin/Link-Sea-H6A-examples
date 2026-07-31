@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ov5640_hdmi_640x480">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:last_row_data_out_mux" CBX_FILE_NAME="mux_rhc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo" CBX_FILE_NAME="dcfifo_eml1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_empty_compare" CBX_FILE_NAME="cmpr_04g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_full_compare" CBX_FILE_NAME="cmpr_04g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr" CBX_FILE_NAME="cntr_qve.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:row_data_out_mux[0]" CBX_FILE_NAME="mux_rhc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:col_data_out_mux" CBX_FILE_NAME="mux_rhc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:last_row_data_out_mux" CBX_FILE_NAME="mux_rhc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:col_data_out_mux" CBX_FILE_NAME="mux_rhc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo" CBX_FILE_NAME="dcfifo_rll1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_empty_compare" CBX_FILE_NAME="cmpr_04g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|lpm_compare:is_almost_full_compare" CBX_FILE_NAME="cmpr_04g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr" CBX_FILE_NAME="cntr_qve.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ov5640_hdmi_top|sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_mux:row_data_out_mux[0]" CBX_FILE_NAME="mux_rhc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

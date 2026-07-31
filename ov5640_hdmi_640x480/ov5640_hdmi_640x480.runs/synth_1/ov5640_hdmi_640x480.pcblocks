@@ -1,0 +1,2615 @@
+GROUP_BEGIN	stratix_clb0	list0	0
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~35_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~30_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~25_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~20_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~0_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~15_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~10_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add0~5_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb1	list1	0
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[1]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[2]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[3]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[4]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[5]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[6]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[7]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[8]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[9]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb2	list1	1
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[11]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[12]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[13]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[14]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb3	list2	0
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[1]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[2]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[3]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[4]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[5]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[6]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[7]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb4	list3	0
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[3]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[4]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[5]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[6]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[7]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[8]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[9]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb5	list3	1
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[11]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[12]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[13]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[14]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb6	list4	0
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[3]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[4]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[5]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[6]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[7]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[8]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_clk[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb7	list5	0
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[3]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[4]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[5]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[6]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[7]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[8]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb8	list5	1
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_refresh[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb9	list6	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~12_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~18_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~24_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~30_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~36_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~42_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~48_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~54_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~60_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~66_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb10	list6	1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~72_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~78_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~84_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add1~6_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb11	list7	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~12_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~18_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~24_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~30_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~36_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~42_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~48_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~54_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~60_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~66_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb12	list7	1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~72_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~78_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~84_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|Add3~6_I
+GROUP_END
+
+GROUP_BEGIN	stratix_mem13	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a1
+GROUP_END
+
+GROUP_BEGIN	stratix_mem14	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a2
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a3
+GROUP_END
+
+GROUP_BEGIN	stratix_mem15	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a4
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a5
+GROUP_END
+
+GROUP_BEGIN	stratix_mem16	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a6
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a7
+GROUP_END
+
+GROUP_BEGIN	stratix_mem17	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a8
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a9
+GROUP_END
+
+GROUP_BEGIN	stratix_mem18	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a10
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a11
+GROUP_END
+
+GROUP_BEGIN	stratix_mem19	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a12
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a13
+GROUP_END
+
+GROUP_BEGIN	stratix_mem20	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a14
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a15
+GROUP_END
+
+GROUP_BEGIN	stratix_clb21	list9	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella2
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella3
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella4
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella5
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella6
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella7
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella8
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella9
+GROUP_END
+
+GROUP_BEGIN	stratix_clb22	list9	1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cntr_cva:wrptr_b|counter_cella10
+GROUP_END
+
+GROUP_BEGIN	stratix_clb23	list10	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb24	list10	1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe4a[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb25	list11	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr|cntr_qve:auto_generated|counter_cella0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr|cntr_qve:auto_generated|counter_cella1
+GROUP_END
+
+GROUP_BEGIN	stratix_mem26	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a1
+GROUP_END
+
+GROUP_BEGIN	stratix_mem27	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a2
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a3
+GROUP_END
+
+GROUP_BEGIN	stratix_mem28	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a4
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a5
+GROUP_END
+
+GROUP_BEGIN	stratix_mem29	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a6
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a7
+GROUP_END
+
+GROUP_BEGIN	stratix_mem30	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a8
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a9
+GROUP_END
+
+GROUP_BEGIN	stratix_mem31	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a10
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a11
+GROUP_END
+
+GROUP_BEGIN	stratix_mem32	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a12
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a13
+GROUP_END
+
+GROUP_BEGIN	stratix_mem33	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a14
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|altsyncram_u861:fifo_ram|ram_block17a15
+GROUP_END
+
+GROUP_BEGIN	stratix_clb34	list13	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella2
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella3
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella4
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella5
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella6
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella7
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella8
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:rdptr_b|counter_cella9
+GROUP_END
+
+GROUP_BEGIN	stratix_clb35	list14	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella2
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella3
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella4
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella5
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella6
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella7
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella8
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella9
+GROUP_END
+
+GROUP_BEGIN	stratix_clb36	list14	1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cntr_cva:wrptr_b|counter_cella10
+GROUP_END
+
+GROUP_BEGIN	stratix_clb37	list15	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~44_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~39_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~34_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~29_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~24_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~19_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~14_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~9_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~4_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe10a[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb38	list16	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb39	list16	1
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe4a[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb40	list17	0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr|cntr_qve:auto_generated|counter_cella0
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_counter:rd_ptr|cntr_qve:auto_generated|counter_cella1
+GROUP_END
+
+GROUP_BEGIN	stratix_clb41	list18	0
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~45_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~40_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~35_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~25_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~20_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~30_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~15_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~10_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~5_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Add1~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb42	list19	0
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[0]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[1]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[2]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[3]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[4]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[5]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[6]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb43	list20	0
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[1]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[2]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[3]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[4]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[5]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[6]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[7]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[8]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb44	list21	0
+\video_driver:video_driver_inst|cnt_h[0]~I
+\video_driver:video_driver_inst|cnt_h[1]~I
+\video_driver:video_driver_inst|cnt_h[2]~I
+\video_driver:video_driver_inst|cnt_h[3]~I
+\video_driver:video_driver_inst|cnt_h[4]~I
+\video_driver:video_driver_inst|cnt_h[5]~I
+\video_driver:video_driver_inst|cnt_h[6]~I
+\video_driver:video_driver_inst|cnt_h[7]~I
+\video_driver:video_driver_inst|cnt_h[8]~I
+\video_driver:video_driver_inst|cnt_h[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb45	list21	1
+\video_driver:video_driver_inst|cnt_h[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb46	list22	0
+\video_driver:video_driver_inst|cnt_v[0]~I
+\video_driver:video_driver_inst|cnt_v[1]~I
+\video_driver:video_driver_inst|cnt_v[2]~I
+\video_driver:video_driver_inst|cnt_v[3]~I
+\video_driver:video_driver_inst|cnt_v[4]~I
+\video_driver:video_driver_inst|cnt_v[5]~I
+\video_driver:video_driver_inst|cnt_v[6]~I
+\video_driver:video_driver_inst|cnt_v[7]~I
+\video_driver:video_driver_inst|cnt_v[8]~I
+\video_driver:video_driver_inst|cnt_v[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb47	list22	1
+\video_driver:video_driver_inst|cnt_v[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_ppll48	
+\clk_pll_1:clk_gen_inst|altpll:altpll_component|pll
+GROUP_END
+
+GROUP_BEGIN	stratix_ppll49	
+\clk_pll_2:clk_gen_inst2|altpll:altpll_component|pll
+GROUP_END
+
+GROUP_BEGIN	stratix_clb50	
+\ov5640_top:ov5640_top_inst|comb~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb51	
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|dump_frame~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|FrameCnt[3]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|FrameCnt[2]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|FrameCnt[1]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|FrameCnt[0]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataValid~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|Hcount[0]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Href~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|Equal1~0_I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Vsync~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb52	
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[7]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[7]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[6]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[5]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[4]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[3]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[2]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[1]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[0]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[0]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb53	
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[6]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[14]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[9]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[8]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[15]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[13]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[12]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[11]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_DataPixel[10]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[2]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb54	
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[5]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[4]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[3]~I
+\ov5640_top:ov5640_top_inst|DVP_Capture:DVP_Capture|r_Data[1]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb55	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_bit[0]~2_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|always10~0_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~19_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector21~4_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector21~2_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|always5~5_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|always10~1_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector21~5_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~20_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.SEND_D_ADDR~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb56	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|always4~10_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.ACK_4~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.WR_DATA~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.ACK_3~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.STOP~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.SEND_B_ADDR_L~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.ACK_2~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.SEND_B_ADDR_H~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.ACK_1~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|WideOr16~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb57	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~9_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~8_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~2_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~1_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~10_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~15_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~12_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~11_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~64_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~62_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb58	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~6_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~5_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~7_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~66_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~59_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~73_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~47_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~45_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~44_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~43_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb59	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~4_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~96_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~94_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~93_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~88_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~87_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~89_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~85_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~83_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~82_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb60	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~26_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~21_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~25_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux1~3_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux1~2_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_bit[2]~6_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector21~3_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~18_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~23_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux0~1_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb61	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~24_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~22_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|ack~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Equal4~0_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|always5~4_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_i2c_clk[1]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_i2c_clk[0]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_i2c_clk_en~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.IDLE~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|state.START_1~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb62	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~17_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~16_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~14_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Add2~0_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_bit[1]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_bit[0]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_bit[2]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~0_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~61_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~60_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb63	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~13_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Selector1~3_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~183_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~184_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~143_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~144_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~155_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~152_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~149_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~147_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb64	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~9_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~7_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~6_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~5_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~56_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~55_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~28_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~26_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~25_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~24_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb65	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~99_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~74_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~177_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~176_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~180_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~173_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~171_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~170_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~169_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~163_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb66	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~98_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~92_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~3_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~185_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~186_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~4_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~19_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~15_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~13_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~11_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb67	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~97_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~81_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~79_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~77_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~76_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~75_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~71_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~68_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~67_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~53_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb68	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~91_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~90_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~8_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~158_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~179_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~10_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~17_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~69_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~51_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~50_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb69	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~86_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~84_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~78_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~80_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~70_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~72_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~54_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~52_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~34_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~32_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb70	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~65_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~63_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~2_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~161_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~160_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~159_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~115_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~113_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~112_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~104_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb71	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~58_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~57_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~31_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~30_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~130_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~128_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~127_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~40_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~38_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~37_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb72	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~49_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~42_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~41_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~39_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~18_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~151_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~157_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~135_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~134_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~36_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb73	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~48_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~46_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~35_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~33_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~146_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~145_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~141_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~139_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~138_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~137_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb74	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~29_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~27_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~166_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~165_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~153_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~162_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~164_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~14_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~16_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~125_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb75	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~23_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~22_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~21_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~20_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~175_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~178_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~182_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~181_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~12_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~110_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb76	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~174_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~172_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~133_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~131_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~129_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~168_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~167_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~122_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~120_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~119_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb77	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~156_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~154_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~132_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~150_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~148_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~118_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~108_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~107_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~109_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~106_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb78	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~142_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~140_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~126_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~136_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~111_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~117_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~124_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~123_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb79	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~121_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~102_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~101_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~100_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~103_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~105_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~116_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~114_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux1~1_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux1~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb80	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux1~4_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb81	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux0~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb82	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Equal0~1_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[0]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[3]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_clk~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[4]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[2]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[1]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Equal0~0_I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[5]~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[6]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb83	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Mux2~95_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb84	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|always4~9_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb85	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|Equal1~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb86	
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|i2c_end~I
+\ov5640_top:ov5640_top_inst|i2c_ctrl:i2c_ctrl_inst|cnt_clk[7]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb87	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cfg_start~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|reg_num[0]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|always3~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cfg_done~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cfg_start~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cfg_start~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~8_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb88	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~8_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux3~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux3~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb89	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux1~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux1~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~8_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb90	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|always3~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux2~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~14_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb91	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|always3~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~20_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~18_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~17_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~8_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~8_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb92	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~3_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb93	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~13_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~12_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~15_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~8_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~16_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~13_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb94	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~8_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~13_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~12_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~14_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb95	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux2~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux1~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~9_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb96	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~8_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~17_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb97	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~8_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~12_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~12_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~14_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb98	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux6~14_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~19_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~17_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~16_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb99	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~9_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~15_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~14_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~15_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~13_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~12_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~16_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~14_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb100	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux5~16_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~18_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux4~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~19_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~21_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb101	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux2~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux1~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux1~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux7~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~12_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~16_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~8_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb102	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux1~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux1~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux9~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~15_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~15_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~19_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~9_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb103	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~22_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~21_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~3_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~13_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~15_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux13~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~18_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb104	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~7_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|always3~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~14_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~13_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~11_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~16_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~12_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~13_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb105	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux12~20_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux11~10_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~6_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~17_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~18_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux10~5_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb106	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|LessThan0~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Equal0~2_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|cnt_wait[0]~I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Equal0~4_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Equal0~5_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Equal0~1_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Equal0~0_I
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Equal0~3_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb107	
+\ov5640_top:ov5640_top_inst|ov5640_cfg:ov5640_cfg_inst|Mux14~4_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb108	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_cmd_r[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_cmd_r[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_ba[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_ba[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[10]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_cmd_r[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[9]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[8]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[7]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[6]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb109	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[5]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[4]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[3]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[12]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[11]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector12~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_cmd_r[1]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb110	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_ba[1]~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr~3_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|WideOr1~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|WideOr0~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[0]~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~8_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector7~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector2~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[0]~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector2~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb111	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector7~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr[6]~4_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~11_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector7~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~7_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~6_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~9_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~3_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb112	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector4~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector3~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr~8_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr~6_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr~12_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_addr~10_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector9~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector8~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb113	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~4_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~10_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Mux0~5_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Equal1~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Equal0~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Equal1~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Equal0~3_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Equal0~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Equal0~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb114	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector6~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector5~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector12~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector11~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector10~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb115	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|Selector1~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb116	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_cmd_r[4]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_cmd:u_sdram_cmd|sdram_cmd_r[3]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb117	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|work_state[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|work_state[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|work_state[3]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux3~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_wr_ack~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_ref_req~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux4~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|work_state[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux6~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux5~2_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb118	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_wr_ack~3_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_rd_wr~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_rd_wr~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_wr_ack~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_wr_ack~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal13~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal11~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal11~3_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux4~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_rd_wr~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb119	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_ref_req~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|LessThan4~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_ref_req~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|LessThan4~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal7~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_ref_req~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_state[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_state[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_ar_cnt[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_ar_cnt[2]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb120	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_rd_ack~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal10~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|LessThan1~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal11~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal11~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_state[2]~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Selector0~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Selector0~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_state[2]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb121	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Selector0~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux7~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux7~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux6~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux6~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux5~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux5~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|sdram_rd_wr~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_ar_cnt[3]~3_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux1~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb122	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~7_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~3_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|cnt_200us[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_state[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal8~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_ar_cnt[3]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|init_ar_cnt[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux0~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Add5~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux0~1_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb123	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~6_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~5_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|LessThan3~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|LessThan3~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~1_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~2_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Mux2~4_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb124	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_ctrl:u_sdram_ctrl|Equal7~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb125	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|Equal2~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|always0~0_I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_out_en~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[9]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[8]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[7]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[6]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[5]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[4]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[3]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb126	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[15]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[14]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[13]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[12]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[11]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[10]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_dout_r[0]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb127	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[8]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[7]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[6]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[5]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[4]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[3]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[2]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[1]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[15]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[14]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb128	
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[13]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[12]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[11]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[10]~I
+\sdram_top:sdram1_top_inst|sdram_controller:u_sdram_controller|sdram_data:u_sdram_data|sdram_din_r[0]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb129	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_req~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_req~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|read_valid_r2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|read_valid_r1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wr_ack_r2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[23]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[22]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[21]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[20]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb130	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[23]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[22]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[21]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[20]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[19]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan2~3_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[18]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[17]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[16]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb131	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[21]~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sw_bank_en~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rw_bank_flag~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[19]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[18]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[17]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[16]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[13]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb132	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan2~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan2~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_rd_addr[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan2~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wr_ack_r1~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb133	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan0~3_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb134	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan0~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan0~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|LessThan0~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|sdram_wr_addr[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rd_ack_r2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rd_ack_r1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|read_done_flag~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|write_done_flag~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb135	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[5]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb136	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[15]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb137	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb138	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[8]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb139	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|wrfull_delay~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_gray2bin_07b:write_side_gray_converter|xor7~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[5]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb140	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_middle~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_full~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_middle~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_empty~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_middle~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|fifo_wreq_pipe[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|fifo_wreq_pipe[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb141	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|sub_parity12a1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|_~3_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|sub_parity12a0~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|parity11~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb142	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|sub_parity12a1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|parity11~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|sub_parity12a2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|_~6_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|sub_parity12a0~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb143	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|sub_parity12a1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|_~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|sub_parity12a0~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|parity11~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb144	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|wrfull_comparison_ageb~1_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb145	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|wrfull_comparison_ageb~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb146	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|_~2_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb147	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~5_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[4]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb148	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~4_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~3_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[2]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb149	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[3]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb150	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[2]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb151	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe17a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe16a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_3e8:read_sync_registers|dffpipe_te9:dffpipe14|dffe15a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[1]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb152	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|_~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|_~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|delayed_wrptr_g[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|sub_parity12a2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb153	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|_~5_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|_~4_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|_~3_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|cntr_cout[7]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb154	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|_~4_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|sub_parity12a2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|counter13a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[8]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb155	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_gray2bin_07b:write_side_gray_converter|xor4~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[4]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb156	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_gray2bin_07b:write_side_gray_converter|xor1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|dffe3a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[2]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb157	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_empty~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|stall_pipeline~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|valid_wreq~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[6]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb158	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:wrptr_g|cntr_cout[7]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb159	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|_~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_u26:rdptr_g|_~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb160	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|a_graycounter_036:read_counter_for_write|cntr_cout[7]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb161	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|wrfull_comparison_ageb~2_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb162	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|valid_wrreq~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb163	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|valid_rreq~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb164	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[2]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb165	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[13]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb166	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[2]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb167	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe21a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb168	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe20a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdFIFO:u_rdfifo|dcfifo:dcfifo|dcfifo_eml1:auto_generated|alt_synch_pipe_4e8:write_sync_registers|dffpipe_ue9:dffpipe18|dffe19a[1]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb169	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[6]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb170	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[1]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb171	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[11]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb172	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:output_buffer|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[1]|dffs[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[8]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb173	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|wrfull_delay~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_gray2bin_07b:write_side_gray_converter|xor7~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[5]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb174	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_middle~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_empty~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_middle~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_full~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_middle~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|fifo_wreq_pipe[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|fifo_wreq_pipe[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb175	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|sub_parity15a1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|parity14~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|sub_parity15a2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|cntr_cout[7]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb176	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|sub_parity15a0~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|counter16a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|_~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_v26:read_counter_for_write|_~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[4]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb177	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|sub_parity12a1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|_~3_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|sub_parity12a0~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|parity11~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb178	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|sub_parity12a1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|parity11~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|sub_parity12a2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|_~6_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|sub_parity12a0~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb179	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|wrfull_comparison_ageb~1_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb180	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|wrfull_comparison_ageb~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb181	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_gray2bin_07b:read_side_gray_converter|xor1~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~5_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[0]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb182	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~4_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~3_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[5]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb183	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_gray2bin_07b:read_side_gray_converter|xor7~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe8a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[8]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb184	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_gray2bin_07b:read_side_gray_converter|xor4~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_gray2bin_07b:write_side_gray_converter|xor1~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb185	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|cmpr_ms5:address_comparer|aneb_result_wire[0]~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[0]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb186	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|_~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|_~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|sub_parity12a2~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb187	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|_~5_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|_~4_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|counter13a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|_~2_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|_~1_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[7]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb188	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_gray2bin_07b:write_side_gray_converter|xor4~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|dffe3a[10]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb189	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|counter13a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:wrptr_g|cntr_cout[7]~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|delayed_wrptr_g[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb190	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|valid_wrreq~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb191	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|state_empty~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|a_fefifo:fifo_state|_~0_I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|stall_pipeline~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|valid_wreq~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[6]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[4]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[3]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb192	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|wrfull_comparison_ageb~2_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb193	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|valid_rreq~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb194	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|cntr_cout[7]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb195	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|a_graycounter_u26:rdptr_g|_~3_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb196	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[14]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[13]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[12]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[12]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb197	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:last_data_node[0]|dffs[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[11]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[5]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[15]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|scfifo:output_channel|a_fffifo:subfifo|lpm_ff:data_node[0][0]|dffs[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[7]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[3]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb198	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[8]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[1]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb199	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe25a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[10]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe24a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_2e8:write_sync_registers|dffpipe_se9:dffpipe22|dffe23a[9]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[2]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[1]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb200	
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe21a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[0]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[3]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe20a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[1]~I
+\sdram_top:sdram1_top_inst|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrFIFO:u_wrfifo|dcfifo:dcfifo|dcfifo_rll1:auto_generated|alt_synch_pipe_1e8:read_sync_registers|dffpipe_re9:dffpipe18|dffe19a[5]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb201	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|st_done~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|scl~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cur_state.st_sladdr~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cur_state.st_idle~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|i2c_done~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[0]~14_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector32~4_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cur_state.st_stop~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cur_state.st_data_wr~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cur_state.st_addr8~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb202	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|sda_out~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|sda_dir~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~14_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|data_wr_t[0]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|addr_t[6]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|addr_t[3]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|addr_t[2]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|addr_t[1]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|addr_t[0]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~10_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb203	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[0]~18_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector1~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~8_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector22~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector8~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[0]~17_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[0]~16_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb204	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|cnt[0]~15_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector32~3_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~9_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector19~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector14~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector14~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector23~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~4_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~10_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb205	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~9_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~6_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~7_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector22~3_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector22~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector22~4_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector22~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector10~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector19~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector14~1_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb206	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~5_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~11_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector13~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~16_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector13~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector8~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector19~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector20~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~4_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~5_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb207	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector9~3_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~13_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~7_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~6_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector20~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector20~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector20~3_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector32~6_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector32~2_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb208	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~8_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~12_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~11_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector20~4_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb209	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Selector21~3_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb210	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Equal0~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[0]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|dri_clk~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[4]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[3]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Equal0~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[2]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[5]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[1]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[9]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb211	
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|Equal0~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[6]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[8]~I
+\sil9134_dri:inst_sil9134_dri|i2c_dri:inst_i2c_sil9134_dri|clk_cnt[7]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb212	
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|i2c_exec~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|init_reg_cnt[2]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|init_reg_cnt[1]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|i2c_data[19]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|i2c_data[14]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|i2c_data[0]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|i2c_data[8]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|init_reg_cnt[0]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|i2c_data[9]~I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|start_init_cnt[0]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb213	
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|LessThan0~0_I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|Equal0~2_I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|Equal0~1_I
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|Equal0~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb214	
+\sil9134_dri:inst_sil9134_dri|i2c_sil9134_hdmi_cfg:inst_i2c_sil9134_hdmi_cfg|i2c_data[22]~I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb215	
+\video_driver:video_driver_inst|video_de~2_I
+\video_driver:video_driver_inst|data_req~I
+\video_driver:video_driver_inst|data_req~2_I
+\video_driver:video_driver_inst|video_de~1_I
+\video_driver:video_driver_inst|video_de~0_I
+\video_driver:video_driver_inst|LessThan6~0_I
+\video_driver:video_driver_inst|LessThan6~1_I
+\video_driver:video_driver_inst|Equal0~0_I
+\video_driver:video_driver_inst|LessThan0~0_I
+\video_driver:video_driver_inst|LessThan8~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb216	
+\video_driver:video_driver_inst|data_req~1_I
+\video_driver:video_driver_inst|LessThan9~1_I
+\video_driver:video_driver_inst|data_req~0_I
+\video_driver:video_driver_inst|LessThan4~0_I
+\video_driver:video_driver_inst|LessThan4~4_I
+\video_driver:video_driver_inst|LessThan5~0_I
+\video_driver:video_driver_inst|LessThan4~3_I
+\video_driver:video_driver_inst|LessThan1~0_I
+\video_driver:video_driver_inst|LessThan4~2_I
+\video_driver:video_driver_inst|LessThan4~1_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb217	
+\video_driver:video_driver_inst|LessThan6~3_I
+\video_driver:video_driver_inst|LessThan6~2_I
+\video_driver:video_driver_inst|Equal0~1_I
+\video_driver:video_driver_inst|Equal0~3_I
+\video_driver:video_driver_inst|Equal0~2_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb218	
+\video_driver:video_driver_inst|LessThan9~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb219	
+\video_driver:video_driver_inst|video_rgb[9]~9_I
+\video_driver:video_driver_inst|video_rgb[8]~8_I
+\video_driver:video_driver_inst|video_rgb[7]~7_I
+\video_driver:video_driver_inst|video_rgb[6]~6_I
+\video_driver:video_driver_inst|video_rgb[5]~5_I
+\video_driver:video_driver_inst|video_rgb[4]~4_I
+\video_driver:video_driver_inst|video_rgb[3]~3_I
+\video_driver:video_driver_inst|video_rgb[2]~2_I
+\video_driver:video_driver_inst|video_rgb[1]~1_I
+\video_driver:video_driver_inst|video_rgb[15]~15_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb220	
+\video_driver:video_driver_inst|video_rgb[14]~14_I
+\video_driver:video_driver_inst|video_rgb[13]~13_I
+\video_driver:video_driver_inst|video_rgb[12]~12_I
+\video_driver:video_driver_inst|video_rgb[11]~11_I
+\video_driver:video_driver_inst|video_rgb[10]~10_I
+\video_driver:video_driver_inst|video_rgb[0]~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb221	
+\rst_n~0_I
+GROUP_END
+
+GROUP_BEGIN	stratix_clb222	
+\Assign_replace_lcell_vcc
+GROUP_END
+
+GROUP_BEGIN	stratix_clb223	
+\Assign_replace_lcell_gnd
+GROUP_END
+
+GROUP_BEGIN	stratix_pad224	
+sys_rst_n
+GROUP_END
+
+GROUP_BEGIN	stratix_pad225	
+sys_clk
+GROUP_END
+
+GROUP_BEGIN	stratix_pad226	
+sdram1addr[9]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad227	
+sdram1addr[8]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad228	
+sdram1addr[7]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad229	
+sdram1addr[6]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad230	
+sdram1addr[5]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad231	
+sdram1addr[4]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad232	
+sdram1addr[3]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad233	
+sdram1addr[2]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad234	
+sdram1addr[1]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad235	
+sdram1addr[12]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad236	
+sdram1addr[11]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad237	
+sdram1addr[10]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad238	
+sdram1addr[0]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad239	
+sdram1_we_n
+GROUP_END
+
+GROUP_BEGIN	stratix_pad240	
+sdram1_ras_n
+GROUP_END
+
+GROUP_BEGIN	stratix_pad241	
+sdram1_dq[9]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad242	
+sdram1_dq[8]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad243	
+sdram1_dq[7]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad244	
+sdram1_dq[6]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad245	
+sdram1_dq[5]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad246	
+sdram1_dq[4]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad247	
+sdram1_dq[3]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad248	
+sdram1_dq[2]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad249	
+sdram1_dq[1]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad250	
+sdram1_dq[15]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad251	
+sdram1_dq[14]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad252	
+sdram1_dq[13]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad253	
+sdram1_dq[12]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad254	
+sdram1_dq[11]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad255	
+sdram1_dq[10]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad256	
+sdram1_dq[0]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad257	
+sdram1_cs_n
+GROUP_END
+
+GROUP_BEGIN	stratix_pad258	
+sdram1_clk
+GROUP_END
+
+GROUP_BEGIN	stratix_pad259	
+sdram1_cke
+GROUP_END
+
+GROUP_BEGIN	stratix_pad260	
+sdram1_cas_n
+GROUP_END
+
+GROUP_BEGIN	stratix_pad261	
+sdram1_ba[1]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad262	
+sdram1_ba[0]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad263	
+sccb_sda
+GROUP_END
+
+GROUP_BEGIN	stratix_pad264	
+sccb_scl
+GROUP_END
+
+GROUP_BEGIN	stratix_pad265	
+ov5640_xclk
+GROUP_END
+
+GROUP_BEGIN	stratix_pad266	
+ov5640_vsync
+GROUP_END
+
+GROUP_BEGIN	stratix_pad267	
+ov5640_rst_n
+GROUP_END
+
+GROUP_BEGIN	stratix_pad268	
+ov5640_pwdn
+GROUP_END
+
+GROUP_BEGIN	stratix_pad269	
+ov5640_pclk
+GROUP_END
+
+GROUP_BEGIN	stratix_pad270	
+ov5640_href
+GROUP_END
+
+GROUP_BEGIN	stratix_pad271	
+ov5640_data[7]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad272	
+ov5640_data[6]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad273	
+ov5640_data[5]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad274	
+ov5640_data[4]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad275	
+ov5640_data[3]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad276	
+ov5640_data[2]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad277	
+ov5640_data[1]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad278	
+ov5640_data[0]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad279	
+hdmi_out_vsync
+GROUP_END
+
+GROUP_BEGIN	stratix_pad280	
+hdmi_out_rgb[9]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad281	
+hdmi_out_rgb[8]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad282	
+hdmi_out_rgb[7]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad283	
+hdmi_out_rgb[6]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad284	
+hdmi_out_rgb[5]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad285	
+hdmi_out_rgb[4]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad286	
+hdmi_out_rgb[3]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad287	
+hdmi_out_rgb[2]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad288	
+hdmi_out_rgb[23]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad289	
+hdmi_out_rgb[22]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad290	
+hdmi_out_rgb[21]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad291	
+hdmi_out_rgb[20]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad292	
+hdmi_out_rgb[1]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad293	
+hdmi_out_rgb[19]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad294	
+hdmi_out_rgb[18]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad295	
+hdmi_out_rgb[17]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad296	
+hdmi_out_rgb[16]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad297	
+hdmi_out_rgb[15]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad298	
+hdmi_out_rgb[14]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad299	
+hdmi_out_rgb[13]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad300	
+hdmi_out_rgb[12]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad301	
+hdmi_out_rgb[11]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad302	
+hdmi_out_rgb[10]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad303	
+hdmi_out_rgb[0]
+GROUP_END
+
+GROUP_BEGIN	stratix_pad304	
+hdmi_out_hsync
+GROUP_END
+
+GROUP_BEGIN	stratix_pad305	
+hdmi_out_de
+GROUP_END
+
+GROUP_BEGIN	stratix_pad306	
+hdmi_out_clk
+GROUP_END
+
+GROUP_BEGIN	stratix_pad307	
+ddc_sda
+GROUP_END
+
+GROUP_BEGIN	stratix_pad308	
+ddc_scl
+GROUP_END
+
