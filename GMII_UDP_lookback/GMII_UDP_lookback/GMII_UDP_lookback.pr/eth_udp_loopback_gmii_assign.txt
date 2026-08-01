@@ -1,0 +1,8 @@
+eth_reset_n,reset_n
+reset_p,reset_n,~rx_pkt_err
+eth_msg_din,exter_mac,exter_ip,exter_port,rx_data_length
+tx_en_pulse,eth_msg_rd_en_dly1
+tx_dst_mac,eth_msg_dout
+tx_dst_ip,eth_msg_dout
+tx_dst_port,eth_msg_dout
+tx_data_length,eth_msg_dout

@@ -1,0 +1,17 @@
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+
+//----------- Begin Cut here for INSTANTIATION Template ---//INST_TAG
+eth_msg_buf your_instance_name (
+		.clock (clock),          //input    clock
+		.data (data),            //input    [111:0]    data
+		.rdreq (rdreq),          //input    rdreq
+		.wrreq (wrreq),          //input    wrreq
+		.empty (empty),          //output    empty
+		.full (full),            //output    full
+		.usedw (usedw),          //output    [4:0]    usedw
+		.q (q)                   //output    [111:0]    q
+);
+
+// INST_TAG_END ------ End INSTANTIATION Template ---------

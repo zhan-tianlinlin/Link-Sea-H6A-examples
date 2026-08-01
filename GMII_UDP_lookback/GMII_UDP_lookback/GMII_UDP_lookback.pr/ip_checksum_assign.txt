@@ -1,0 +1,3 @@
+sumb,suma,suma
+sumc,sumb,sumb
+checksum,~sumc
