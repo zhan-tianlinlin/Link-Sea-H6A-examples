@@ -49,6 +49,7 @@
             <Option Id="Compilation Flow">Classic Flow</Option>
             <Option Id="Device">EQ6HL130</Option>
             <Option Id="LanguageVersion">VERILOG_2001</Option>
+            <Option Id="OutOfDate">0</Option>
             <Option Id="Package">CSG484_H</Option>
             <Option Id="Series">eHiChip6</Option>
             <Option Id="TargetLanguage">VERILOG</Option>

@@ -8,7 +8,7 @@ log4cpp.appender.rootAppender.layout=PatternLayout
 log4cpp.appender.rootAppender.layout.ConversionPattern=[%p] %m%n 
 
 log4cpp.appender.A1=RollingFileAppender
-log4cpp.appender.A1.fileName=D:/github_example/ov5640_hdmi_640x480/ov5640_hdmi_640x480.runs/imple_1/ov5640_hdmi_640x480.edb
+log4cpp.appender.A1.fileName=D:/github_example/ov5640_hdmi_640x480/ov5640_hdmi_640x480/ov5640_hdmi_640x480/ov5640_hdmi_640x480.runs/imple_1/ov5640_hdmi_640x480.edb
 log4cpp.appender.A1.maxBackupIndex=1
 log4cpp.appender.A1.append=false
 log4cpp.appender.A1.layout=PatternLayout

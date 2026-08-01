@@ -765,9 +765,6 @@ set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to hdmi_out_vsync
 set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to hdmi_out_vsync
 set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to hdmi_out_vsync
 set_instance_assignment -name SLEW_TYPE SLOW -to hdmi_out_vsync
-set_max_delay -from [get_pins {\sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q}] -to [get_pins {\ov5640_top_inst|ov5640_data_inst|data_out_reg[3]~I|ff/aclr}] 12.000
-set_false_path -from [get_pins {\sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q}] -to [get_pins {\ov5640_top_inst|ov5640_data_inst|data_out_reg[3]~I|ff/aclr}]
-set_false_path -from [get_pins {\sdram1_top_inst|sdram_ctrl_inst|sdram_init_inst|init_state.INIT_END~I|ff/Q}] -to [get_pins {\ov5640_top_inst|ov5640_data_inst|pic_data_reg[1]~I|ff/aclr}]
 set_location_assignment PIN_H6 -to uart_rx
 set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to uart_rx
 set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to uart_rx
