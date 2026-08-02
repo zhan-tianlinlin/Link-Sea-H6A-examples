@@ -1,0 +1,17 @@
+set_global_assignment -name DEVICE EP1S80F1508C6
+set_global_assignment -name FAMILY Stratix
+set_global_assignment -name INI_VARS "qatm_force_vqm=on;vqmo_gen_svgx_vqm=on"
+set_global_assignment -name TOP_LEVEL_ENTITY uart_loopback
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY "D:/github_example/uart_loopback/uart_loopback.runs/synth_1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "2026-08-02 21:52:11"
+set_global_assignment -name VERILOG_FILE "D:/github_example/uart_loopback/uart_loopback.srcs/sources_1/new/uart_tx.v"
+set_global_assignment -name VERILOG_FILE "D:/github_example/uart_loopback/uart_loopback.srcs/sources_1/new/uart_loopback.v"
+set_global_assignment -name VERILOG_FILE "D:/github_example/uart_loopback/uart_loopback.srcs/sources_1/new/uart_rx.v"
+set_global_assignment -name MAX_RAM_BLOCKS_M512 0
+set_global_assignment -name MAX_RAM_BLOCKS_MRAM 0
+set_global_assignment -name AUTO_MERGE_PLLS OFF
+set_global_assignment -name AUTO_RAM_RECOGNITION ON
+set_global_assignment -name AUTO_ROM_RECOGNITION ON
+set_global_assignment -name DSP_BLOCK_BALANCING AUTO
+set_global_assignment -name STRATIX_OPTIMIZATION_TECHNIQUE BALANCED
+set_global_assignment -name VERILOG_INPUT_VERSION VERILOG_2001

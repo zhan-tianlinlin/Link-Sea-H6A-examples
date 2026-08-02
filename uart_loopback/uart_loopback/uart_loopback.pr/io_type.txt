@@ -1,0 +1,3 @@
+uart_tx, output, tx
+uart_rx, output, po_data
+uart_rx, output, po_flag

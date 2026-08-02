@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Product Version: eLinx v1.0.0.0-->
+<!--								-->
+<!--Copyright 2017-2024 eHiWay, Inc. All Rights Reserved.-->
+<Hierarchy>
+    <DesignSources>
+        <Node ModuleName="uart_loopback" PortName="rx,sys_clk,sys_rst_n,tx" PortSignal="input,input,input,output" ParameterName="UART_BPS,CLK_FREQ" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/uart_loopback.srcs/sources_1/new/uart_loopback.v">
+            <Child ModuleName="uart_rx" InstName="uart_rx_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="uart_tx" InstName="uart_tx_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <Node ModuleName="uart_rx" PortName="po_data[7:0],po_flag,rx,sys_clk,sys_rst_n" PortSignal="output,output,input,input,input" ParameterName="UART_BPS,CLK_FREQ" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/uart_loopback.srcs/sources_1/new/uart_rx.v"/>
+        <Node ModuleName="uart_tx" PortName="pi_data[7:0],pi_flag,sys_clk,sys_rst_n,tx" PortSignal="input,input,input,input,output" ParameterName="UART_BPS,CLK_FREQ" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/uart_loopback.srcs/sources_1/new/uart_tx.v"/>
+        <MifHexFiles/>
+        <SyntaxErrorFiles/>
+        <OtherFiles/>
+        <BlockDesignFiles/>
+    </DesignSources>
+    <SimulationSources>
+        <SimSet Name="sim_1">
+            <MifHexFiles/>
+            <SyntaxErrorFiles/>
+            <OtherFiles/>
+        </SimSet>
+    </SimulationSources>
+</Hierarchy>

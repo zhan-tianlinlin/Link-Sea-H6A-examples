@@ -1,0 +1,14 @@
+set_location_assignment PIN_H6 -to rx
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to rx
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to rx
+set_location_assignment PIN_AB12 -to sys_clk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sys_clk
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sys_clk
+set_location_assignment PIN_B18 -to sys_rst_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to sys_rst_n
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to sys_rst_n
+set_location_assignment PIN_H4 -to tx
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to tx
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to tx
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to tx
+set_instance_assignment -name SLEW_TYPE SLOW -to tx
