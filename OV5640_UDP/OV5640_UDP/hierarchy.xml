@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Product Version: eLinx v1.0.0.0-->
+<!--								-->
+<!--Copyright 2017-2024 eHiWay, Inc. All Rights Reserved.-->
+<Hierarchy>
+    <DesignSources>
+        <Node ModuleName="clk_pll_1" PortName="areset,c0,inclk0,locked" PortSignal="input,output,input,output" ParameterName="" InstName="" IsIP="true" IsUserIP="false" EciPath="/OV5640_UDP.srcs/sources_1/ip/clk_pll_1/clk_pll_1.eci" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/ip/clk_pll_1/clk_pll_1.v">
+            <Child ModuleName="altpll" InstName="altpll_component" FilePath="" IsIP="true" EciPath="/OV5640_UDP.srcs/sources_1/ip/clk_pll_1/clk_pll_1.eci" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <Node ModuleName="clk_pll_2" PortName="areset,c0,c1,inclk0,locked" PortSignal="input,output,output,input,output" ParameterName="" InstName="" IsIP="true" IsUserIP="false" EciPath="/OV5640_UDP.srcs/sources_1/ip/clk_pll_2/clk_pll_2.eci" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/ip/clk_pll_2/clk_pll_2.v">
+            <Child ModuleName="altpll" InstName="altpll_component" FilePath="" IsIP="true" EciPath="/OV5640_UDP.srcs/sources_1/ip/clk_pll_2/clk_pll_2.eci" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <Node ModuleName="crc32_d8" PortName="clk,crc_en,crc_init,crc_result[31:0],data[7:0],reset_p" PortSignal="input,input,input,output,input,input" ParameterName="" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/UDP_Send/crc32_d8.v"/>
+        <Node ModuleName="DVP_Capture" PortName="DataHs,DataPixel[15:0],DataValid,DataVs,Data[7:0],Href,ImageState,PCLK,Rst_p,Vsync,Xaddr[11:0],Yaddr[11:0]" PortSignal="output,output,output,output,input,input,output,input,input,input,output,output" ParameterName="" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/ov5640_init/DVP_Capture.v"/>
+        <Node ModuleName="eth_tx_ctrl" PortName="clk,data_i[15:0],data_valid_i,eth_txfifo_dout[7:0],eth_txfifo_rd_clk,eth_txfifo_rden,reset_p,tx_done,tx_en_pulse" PortSignal="input,input,input,output,input,input,input,input,output" ParameterName="PAYLOAD_DATA_BYTE,PAYLOAD_LENGTH" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/UDP_Send/eth_tx_ctrl.v">
+            <Child ModuleName="eth_tx_fifo" InstName="eth_tx_fifo" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <Node ModuleName="eth_tx_fifo" PortName="aclr,data[15:0],q[7:0],rdclk,rdreq,rdusedw[12:0],wrclk,wrfull,wrreq" PortSignal="input,input,output,input,input,output,input,output,input" ParameterName="" InstName="" IsIP="true" IsUserIP="false" EciPath="/OV5640_UDP.srcs/sources_1/ip/eth_tx_fifo/eth_tx_fifo.eci" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/ip/eth_tx_fifo/eth_tx_fifo.v">
+            <Child ModuleName="dcfifo_mixed_inst_eth_tx_fifo" InstName="dcfifo" FilePath="" IsIP="true" EciPath="/OV5640_UDP.srcs/sources_1/ip/eth_tx_fifo/eth_tx_fifo.eci" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <Node ModuleName="eth_udp_tx_gmii" PortName="clk125m,data_length[15:0],dst_ip[31:0],dst_mac[47:0],dst_port[15:0],gmii_tx_clk,gmii_txd[7:0],gmii_txen,payload_dat_i[7:0],payload_req_o,reset_p,src_ip[31:0],src_mac[47:0],src_port[15:0],tx_done,tx_en_pulse" PortSignal="input,input,input,input,input,output,output,output,input,output,input,input,input,input,output,input" ParameterName="ETH_type,IP_ver,IP_hdr_len,IP_tos,IP_id,IP_rsv,IP_df,IP_mf,IP_frag_offset,IP_ttl,IP_protocol" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/UDP_Send/eth_udp_tx_gmii.v">
+            <Child ModuleName="ip_checksum" InstName="ip_checksum" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="crc32_d8" InstName="crc32_d8" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <Node ModuleName="i2c_ctrl" PortName="addr_num,byte_addr[15:0],i2c_clk,i2c_end,i2c_scl,i2c_sda,i2c_start,rd_data[7:0],rd_en,sys_clk,sys_rst_n,wr_data[7:0],wr_en" PortSignal="input,input,output,output,output,inout,input,output,input,input,input,input,input" ParameterName="DEVICE_ADDR,SYS_CLK_FREQ,SCL_FREQ,CNT_CLK_MAX,CNT_START_MAX,IDLE,START_1,SEND_D_ADDR,ACK_1,SEND_B_ADDR_H,ACK_2,SEND_B_ADDR_L,ACK_3,WR_DATA,ACK_4,START_2,SEND_RD_ADDR,ACK_5,RD_DATA,N_ACK,STOP" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/ov5640_init/i2c_ctrl.v"/>
+        <Node ModuleName="ip_checksum" PortName="IP_df,IP_frag_offset[12:0],IP_hdr_len[3:0],IP_id[15:0],IP_mf,IP_protocol[7:0],IP_rsv,IP_tos[7:0],IP_total_len[15:0],IP_ttl[7:0],IP_ver[3:0],cal_en,checksum[15:0],clk,dst_ip[31:0],reset_p,src_ip[31:0]" PortSignal="input,input,input,input,input,input,input,input,input,input,input,input,output,input,input,input,input" ParameterName="" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/UDP_Send/ip_checksum.v"/>
+        <Node ModuleName="ov5640_cfg" PortName="cfg_data[23:0],cfg_done,cfg_end,cfg_start,sys_clk,sys_rst_n" PortSignal="output,output,input,output,input,input" ParameterName="REG_NUM,CNT_WAIT_MAX" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="false" FilePath="/OV5640_UDP.srcs/sources_1/new/ov5640_init/ov5640_cfg.v"/>
+        <Node ModuleName="ov5640_hdmi_top" PortName="eth_reset_n,gmii_txd[7:0],gmii_txen,gtxclk,ov5640_data[7:0],ov5640_href,ov5640_pclk,ov5640_pwdn,ov5640_rst_n,ov5640_vsync,ov5640_xclk,sccb_scl,sccb_sda,sys_clk,sys_rst_n" PortSignal="output,output,output,output,input,input,input,output,output,input,output,output,inout,input,input" ParameterName="IMAGE_WIDTH,IMAGE_HEIGHT,DST_MAC,SRC_MAC,DST_IP,SRC_IP,DST_PORT,SRC_PORT" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/ov5640_udp_gmii.v">
+            <Child ModuleName="clk_pll_1" InstName="clk_gen_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="clk_pll_2" InstName="clk_gen_inst2" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="ov5640_top" InstName="ov5640_top_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="eth_tx_ctrl" InstName="eth_tx_ctrl_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="eth_udp_tx_gmii" InstName="eth_udp_tx_gmii_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <Node ModuleName="ov5640_top" PortName="cfg_done,image_data_hs,image_data_vs,ov5640_data[7:0],ov5640_data_out[15:0],ov5640_href,ov5640_pclk,ov5640_vsync,ov5640_wr_en,sccb_scl,sccb_sda,sys_clk,sys_init_done,sys_rst_n,x_addr[11:0],y_addr[11:0]" PortSignal="output,output,output,input,output,input,input,input,output,output,inout,input,input,input,output,output" ParameterName="SLAVE_ADDR,BIT_CTRL,CLK_FREQ,I2C_FREQ" InstName="" IsIP="false" IsUserIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath="" SyntaxError="true" FilePath="/OV5640_UDP.srcs/sources_1/new/ov5640_init/ov5640_top.v">
+            <Child ModuleName="i2c_ctrl" InstName="i2c_ctrl_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="ov5640_cfg" InstName="ov5640_cfg_inst" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+            <Child ModuleName="DVP_Capture" InstName="DVP_Capture" FilePath="" IsIP="false" EciPath="" IsBlockDesign="false" BlockDesignPath=""/>
+        </Node>
+        <MifHexFiles/>
+        <SyntaxErrorFiles/>
+        <OtherFiles/>
+        <BlockDesignFiles/>
+    </DesignSources>
+    <SimulationSources>
+        <SimSet Name="sim_1">
+            <MifHexFiles/>
+            <SyntaxErrorFiles/>
+            <OtherFiles/>
+        </SimSet>
+    </SimulationSources>
+</Hierarchy>

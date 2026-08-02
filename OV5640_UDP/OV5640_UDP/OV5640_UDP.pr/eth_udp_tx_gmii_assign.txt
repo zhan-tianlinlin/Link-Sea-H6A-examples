@@ -1,0 +1,6 @@
+udp_check_sum,16'h0
+gmii_tx_clk,clk125m
+udp_length,data_length
+IP_total_len,udp_length
+payload_req_o,curr_state,TX_DATA
+crc_state,curr_state,TX_CRC

@@ -1,0 +1,4 @@
+rst_n,sys_rst_n,pll1_locked,pll2_locked
+sys_init_done,cfg_done
+ov5640_rst_n,rst_n
+eth_reset_n,rst_n
