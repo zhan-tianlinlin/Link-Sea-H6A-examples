@@ -32,6 +32,8 @@
    - LED 低电平点亮，持续约 1 秒。
    - 增加了 `led_payload_byte`、`led_timer` 等监测逻辑。
    - 记得在上位机中把发送格式设置为 HEX，不然你数据都发错了，LED 肯定不亮。
+   - <img width="1418" height="1157" alt="image" src="https://github.com/user-attachments/assets/210e367c-df95-49ce-bece-5a93340fede9" />
+
 
 2. **优化 IP 校验和计算**
 
