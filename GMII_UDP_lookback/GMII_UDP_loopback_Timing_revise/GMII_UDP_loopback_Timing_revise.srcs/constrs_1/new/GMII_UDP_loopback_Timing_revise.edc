@@ -1,0 +1,115 @@
+create_clock -name gmii_rx_clk -period 8.000 -waveform {0.000 4.000} [get_ports {gmii_rx_clk}]
+create_generated_clock -name gtxclk -source [get_ports {gmii_rx_clk}] -divide_by 1 [get_ports {gtxclk}]
+set_input_delay -clock [get_clocks {gmii_rx_clk}] -max 4.000 [get_ports {gmii_rxd[0] gmii_rxd[1] gmii_rxd[2] gmii_rxd[3] gmii_rxd[4] gmii_rxd[5] gmii_rxd[6] gmii_rxd[7] gmii_rxdv}] -add_delay
+set_input_delay -clock [get_clocks {gmii_rx_clk}] -min -1.000 [get_ports {gmii_rxd[0] gmii_rxd[1] gmii_rxd[2] gmii_rxd[3] gmii_rxd[4] gmii_rxd[5] gmii_rxd[6] gmii_rxd[7] gmii_rxdv}] -add_delay
+set_output_delay -clock [get_clocks {gtxclk}] -max 0.500 [get_ports {gmii_txd[0] gmii_txd[1] gmii_txd[2] gmii_txd[3] gmii_txd[4] gmii_txd[5] gmii_txd[6] gmii_txd[7] gmii_txen}] -add_delay
+set_output_delay -clock [get_clocks {gtxclk}] -min -1.500 [get_ports {gmii_txd[0] gmii_txd[1] gmii_txd[2] gmii_txd[3] gmii_txd[4] gmii_txd[5] gmii_txd[6] gmii_txd[7] gmii_txen}] -add_delay
+
+set_location_assignment PIN_Y13 -to eth_reset_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to eth_reset_n
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to eth_reset_n
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to eth_reset_n
+set_instance_assignment -name SLEW_TYPE SLOW -to eth_reset_n
+set_location_assignment PIN_W13 -to gmii_rx_clk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rx_clk
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rx_clk
+set_location_assignment PIN_Y16 -to gmii_rxd\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[0\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[0\]
+set_location_assignment PIN_W15 -to gmii_rxd\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[1\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[1\]
+set_location_assignment PIN_Y14 -to gmii_rxd\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[2\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[2\]
+set_location_assignment PIN_W14 -to gmii_rxd\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[3\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[3\]
+set_location_assignment PIN_U14 -to gmii_rxd\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[4\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[4\]
+set_location_assignment PIN_T14 -to gmii_rxd\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[5\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[5\]
+set_location_assignment PIN_AB14 -to gmii_rxd\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[6\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[6\]
+set_location_assignment PIN_AA14 -to gmii_rxd\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxd\[7\]
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxd\[7\]
+set_location_assignment PIN_V13 -to gmii_rxdv
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_rxdv
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to gmii_rxdv
+set_location_assignment PIN_AA12 -to gmii_txd\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[0\]
+set_location_assignment PIN_AB11 -to gmii_txd\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[1\]
+set_location_assignment PIN_Y11 -to gmii_txd\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[2\]
+set_location_assignment PIN_AB10 -to gmii_txd\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[3\]
+set_location_assignment PIN_AA10 -to gmii_txd\[4\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[4\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[4\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[4\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[4\]
+set_location_assignment PIN_U13 -to gmii_txd\[5\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[5\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[5\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[5\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[5\]
+set_location_assignment PIN_R13 -to gmii_txd\[6\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[6\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[6\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[6\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[6\]
+set_location_assignment PIN_AB13 -to gmii_txd\[7\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txd\[7\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txd\[7\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txd\[7\]
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txd\[7\]
+set_location_assignment PIN_AB18 -to gmii_txen
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gmii_txen
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gmii_txen
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gmii_txen
+set_instance_assignment -name SLEW_TYPE SLOW -to gmii_txen
+set_location_assignment PIN_V15 -to gtxclk
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to gtxclk
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to gtxclk
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to gtxclk
+set_instance_assignment -name SLEW_TYPE SLOW -to gtxclk
+set_location_assignment PIN_B18 -to reset_n
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to reset_n
+set_instance_assignment -name ENABLE_BUS_HOLD_CIRCUITRY OFF -to reset_n
+set_location_assignment PIN_F16 -to led\[0\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to led\[0\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to led\[0\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to led\[0\]
+set_instance_assignment -name SLEW_TYPE SLOW -to led\[0\]
+set_location_assignment PIN_F15 -to led\[1\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to led\[1\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to led\[1\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to led\[1\]
+set_instance_assignment -name SLEW_TYPE SLOW -to led\[1\]
+set_location_assignment PIN_J7 -to led\[2\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to led\[2\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to led\[2\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to led\[2\]
+set_instance_assignment -name SLEW_TYPE SLOW -to led\[2\]
+set_location_assignment PIN_H8 -to led\[3\]
+set_instance_assignment -name IO_STANDARD "3.3V LVTTL" -to led\[3\]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 12MA -to led\[3\]
+set_instance_assignment -name OPEN_DRAIN_OUTPUT OFF -to led\[3\]
+set_instance_assignment -name SLEW_TYPE SLOW -to led\[3\]

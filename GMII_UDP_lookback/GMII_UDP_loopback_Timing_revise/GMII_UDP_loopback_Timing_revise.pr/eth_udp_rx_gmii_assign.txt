@@ -1,0 +1,3 @@
+clk125m_o,clk125m
+debug_crc_check,crc_check
+clk125m,gmii_rx_clk
