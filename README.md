@@ -8,3 +8,6 @@ ehiway把我们当小白鼠!!!<br>
 已经力竭了，后面应该不会更了<br>
 希望能够帮到你们，快说“谢谢天灵灵”<br>
 <img width="390" height="390" alt="Image_1785486954164_658" src="https://github.com/user-attachments/assets/73183e5a-457a-4c22-b449-16824a25c982" />
+<br>对图像处理感兴趣的小登可以看看这个博主<br>
+https://www.cnblogs.com/xianyuIC?page=11<br>
+从第11页到第8页，感觉很详细了，你们可以仔细阅读
